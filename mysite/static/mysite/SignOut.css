@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 20%, #F2E5B4 100%);
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 20%, #8A20DC 100%);
     z-index: 1;
 }
 
@@ -197,11 +197,11 @@ body {
     position: relative;
     width: 10px;
     height: 6px;
-    background: conic-gradient(from 183deg at 37.27% 271.67%, #D7A218 0deg, rgba(214, 168, 34, 1.00) 161.2499964237213deg, rgba(165, 167, 66, 0.98) 238.12499284744263deg, rgba(179, 157, 37, 0.96) 360deg);
+    background: conic-gradient(from 183deg at 37.27% 271.67%, #8A20DC 0deg, rgba(135, 34, 214, 1.00) 161.2499964237213deg, rgba(210, 213, 77, 0.98) 238.12499284744263deg, rgba(179, 157, 37, 0.96) 360deg);
+    box-shadow: 0 0 0 10px conic-gradient(from 183deg at 37.27% 271.67%, #8A20DC 0deg, rgba(135, 34, 214, 1.00) 161.2499964237213deg, rgba(210, 213, 77, 0.98) 238.12499284744263deg, rgba(179, 157, 37, 0.96) 360deg);
     margin: 0 3px;
     border-radius: 100%;
     opacity: 0.6;
-    box-shadow: 0 0 0 10px conic-gradient(from 183deg at 37.27% 271.67%, #D7A218 0deg, rgba(214, 168, 34, 1.00) 161.2499964237213deg, rgba(165, 167, 66, 0.98) 238.12499284744263deg, rgba(179, 157, 37, 0.96) 360deg);
     animation: animate 15s linear infinite;
     animation-duration: calc(190s / var(--i));
     filter: blur(1px);
@@ -210,9 +210,8 @@ body {
 .bubbles span:nth-child(even) {
     filter: blur(1px);
     opacity: 0.6;
-    background: conic-gradient(from 183deg at 37.27% 271.67%, #D7A218 0deg, rgba(214, 168, 34, 1.00) 161.2499964237213deg, rgba(165, 167, 66, 0.98) 238.12499284744263deg, rgba(179, 157, 37, 0.96) 360deg);
-    box-shadow: 0 0 0 10px conic-gradient(from 183deg at 37.27% 271.67%, #D7A218 0deg, rgba(214, 168, 34, 1.00) 161.2499964237213deg, rgba(165, 167, 66, 0.98) 238.12499284744263deg, rgba(179, 157, 37, 0.96) 360deg);
-}
+    background: conic-gradient(from 183deg at 37.27% 271.67%, #8A20DC 0deg, rgba(135, 34, 214, 1.00) 161.2499964237213deg, rgba(210, 213, 77, 0.98) 238.12499284744263deg, rgba(179, 157, 37, 0.96) 360deg);
+    box-shadow: 0 0 0 10px conic-gradient(from 183deg at 37.27% 271.67%, #8A20DC 0deg, rgba(135, 34, 214, 1.00) 161.2499964237213deg, rgba(210, 213, 77, 0.98) 238.12499284744263deg, rgba(179, 157, 37, 0.96) 360deg);}
 
 @keyframes animate {
     0% {

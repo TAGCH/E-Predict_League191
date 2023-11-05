@@ -21,7 +21,8 @@ from . import views
 urlpatterns = [
     path("", include("audience.urls")),
     path("predict/", include("predict.urls")),
-    
+    path("user_profile/", include("user_profile.urls")),
+
     path("accounts/register/", views.register, name="register"),
     path('accounts/login/', views.custom_login, name='custom_login'),
     # path('updateprofile/', views.update_profile, name='update_profile'),
