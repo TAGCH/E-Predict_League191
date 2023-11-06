@@ -35,7 +35,7 @@ Now, your Application is set up to allow social logins through the configured so
 ## Demo Admin
 | Username  | Password        | Email |
 |-----------|-----------------|-------|
-|           |                 |       |
+|   Test01        |       0123456          |       |
 
 ## Demo Users
 | Username  | Password        |

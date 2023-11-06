@@ -1,0 +1,6 @@
+Hello from EPL Prediction App!
+
+{% block content %}{% endblock content %}
+
+Thank you for using our Prediction App!
+EPL Prediction Team
