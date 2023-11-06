@@ -1,6 +1,6 @@
-Hello from Nong-All-New Audience App!
+Hello from EPL Prediction App!
 
 {% block content %}{% endblock content %}
 
-Thank you for using our Audience App!
-Nong-All-New Team
+Thank you for using our Prediction App!
+EPL Prediction Team

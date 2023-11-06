@@ -19,8 +19,8 @@
         <div class="Ex">
             <div class="login">
                 <center>
-                    <h3 class="title">Register</h3>
-                    <br>
+                    <h3 class="title-medium">Register</h3>
+                    <br class="brHeight">
                     <form method="POST">
                         {% csrf_token %}
                         <div class="text-input">
@@ -49,6 +49,7 @@
                             <option value="{{ value }}" >{{ label }}</option>
                             {% endfor %}
                         </select>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <label class="DropBoxText" for="{{ register_form.gender.name }}">Gender</label>
                         <select name="{{ register_form.gender.name }}" id="{{ register_form.gender.name }}" class="custom-select-gender">
                             {% for value, label in register_form.gender.field.choices %}

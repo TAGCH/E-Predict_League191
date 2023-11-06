@@ -273,21 +273,11 @@ display: block;
 }
 
 .EPL_Logo {
-    width: 1px;
-    height: 40%;
+    width: 55%;
+    height: 50%;
     flex-shrink: 0;
     margin-left: auto;
     margin-right: auto;
-}
-
-.olympicLogo {
-    width: 200px;
-    height: 100px;
-    flex-shrink: 0;
-    margin-left: auto;
-    margin-right: auto;
-    border: 0;
-    border-style: none;
 }
 
 .brHeight {
@@ -391,7 +381,7 @@ display: block;
 }
 
 .SignUp{
-    color: #48997C;
+    color: rgba(137, 72, 153, 0.82);
     font-family: Paris2024-Variable;
     font-size: 18px;
     font-style: normal;

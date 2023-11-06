@@ -28,6 +28,11 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True if os.getenv("DEBUG") == "True" else False
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+    }
+}
 
 ALLOWED_HOSTS = ["*"]
 
@@ -170,6 +175,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     "mysite/static",
+    "audience/static"
 ]
 
 # Default primary key field type

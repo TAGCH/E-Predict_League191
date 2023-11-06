@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 20%, #8A20DC 100%);
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 20%, #8b20dc2e 100%);
     z-index: 1;
 }
 
@@ -78,7 +78,7 @@ body {
 
 .Ex {
     border-radius: 50px;
-    box-shadow: 16px 9px 250px 42px rgba(152, 131, 56, 0.52), 0px 0px 29px 580px rgba(227, 204, 120, 0.12) inset;
+    box-shadow: 16px 9px 250px 42px rgba(152, 56, 131, 0.53), 0px 0px 29px 580px rgba(193, 120, 227, 0.12) inset;
     background: rgb(252, 252, 252);
     width: 28%;
     height: 400px;
@@ -106,8 +106,8 @@ body {
     border: 0.01px solid rgb(139, 137, 137, 0.0);
     border-radius: 80px;
     opacity: 0.5;
-    background: conic-gradient(from 183deg at 37.27% 271.67%, #D7A218 0deg, rgba(214, 168, 34, 1.00) 161.2499964237213deg, rgba(165, 167, 66, 0.98) 238.12499284744263deg, rgba(179, 157, 37, 0.96) 360deg);
-    box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.25);
+    background: conic-gradient(from 183deg at 37.27% 271.67%, #8A20DC 0deg, rgba(135, 34, 214, 1.00) 162.74986624717712deg, rgba(136, 34, 216, 1.00) 323.99986267089844deg, rgba(177, 37, 179, 0.36) 331.49985551834106deg);
+    box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.25); 
     color: #FFF;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
     font-family: Baloo Thambi 2;
@@ -133,7 +133,7 @@ body {
     border-radius: 80px;
     opacity: 0.5;
     box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.25);
-    color: rgba(214, 168, 34, 1.00);
+    color: #8A20DC;
     text-shadow: 4px 4px 10px rgbargba(214, 168, 34, 1.00);
     font-family: Baloo Thambi 2;
     font-size: 14px;
