@@ -1,3 +1,87 @@
+/*For menu bar*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 80px;
+    background-color: #3C0041;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    box-shadow: 0 0 30px rgb(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    user-select: none;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px #00000057;
+}
+
+.navigation a {
+    font-size:  1.0em;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 40px;
+    position: absolute;
+    position:relative;
+    display: inline-flexbox;
+}
+
+.navigation .btnLogin-popup {
+    width:  110px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 1000;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .btnLogin-popup:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: blueviolet;
+}
+
+.navigation a::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.item {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+.item:hover {
+    transform: scale(1.1);
+}
+/*For menu bar*/
+
 .team-badge {
     height: 200px;
     width: 330px;
