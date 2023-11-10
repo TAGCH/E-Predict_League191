@@ -1,0 +1,14 @@
+.team-badge {
+    height: 200px;
+    width: 330px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, #F00 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 40px;
+    transition: all 0.6s;
+}
+
+.team-badge:hover {
+    transform: scale(1.05);
+}
