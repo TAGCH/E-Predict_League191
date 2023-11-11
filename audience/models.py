@@ -25,8 +25,12 @@ class TeamList(models.Model):
     goal_against = models.IntegerField()
 
 
+class PlayerInformation(models.Model):
+    """Model of player that contain player associated team and stat."""
+    player_name = models.CharField(max_length=250)
+
 
 class TeamDetail(models.Model):
     """Class of Team. Contain a specific team detail."""
     team_name = models.ForeignKey(TeamList, on_delete=models.CASCADE)
-    player_name = models.ForeignKey()
+    player_name = models.ForeignKey(PlayerInformation, on_delete=models.CASCADE)
