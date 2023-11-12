@@ -1,44 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <style>
-        /* Custom CSS to center text vertically */
-        .center-both {
-            display: flex;
-            justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
-            height: 100vh; /* Set a minimum height to center content vertically */
-        }
-    </style>
-    <title>Audience</title>
-</head>
-<body>
-    <a href="{% url 'user_profile:profile' %}">{{user}}</a>
-    {% if user.is_authenticated %}
-    <a href="{% url 'account_logout' %}">logout</a>
-    {% else %}
-    <a href="{% url 'account_login' %}">login</a>
-    {% endif %}
-    <div>
-        <a href="{% url 'audience:homepage' %}">dashboard</a>
-    </div>
-    <div class="center-both">
-        <div>
-            <h1 class="text-center">Hello, {{page}} page!</h1>
-            <p class="text-center">{{detail}}</p>
-        </div>
-    </div>
-    <table>
-        <h2>{{data.team_name}}</h2>
-        <tr><td></td><td>total medals</td><td></td></tr>
-        <tr><td>rank:{{data.rank}}</td><td>win:{{data.win}}</td><td>draw:{{data.draw}}</td></tr>
-        <tr><td>Player</td><td>number</td><td>goal</td><td>match</td></tr>
-        {% for player in data.player %}
-        <tr><td>{{player.player_code}}</td><td>{{player.number}}</td><td>{{player.goal}}</td><td>{{player.match}}  </td></tr>
-        {% endfor %}
-    </table>
-</body>
-</html>
+{% block content %}
+  <h2>Team Detail - Team {{ team_id }}</h2>
+  
+  <!-- Display Team Details -->
+  <h3>Team Details</h3>
+  <p>Team: {{ team_detail.Team }}</p>
+  <p>Won: {{ team_detail.Won }}</p>
+  <p>Lose: {{ team_detail.Lose }}</p>
+  <!-- Add other team details here -->
+
+  <!-- Display List of Players -->
+  <h3>List of Players</h3>
+  <ul>
+    {% for player in players %}
+      <li><a href="{% url 'audience:player_information' player.Id %}">{{ player.Name }}</a></li>
+    {% endfor %}
+  </ul>
+{% endblock %}
