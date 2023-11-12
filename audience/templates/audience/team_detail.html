@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {% comment %} <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,3 +64,23 @@
     <div class="empty-box"> <h1>{{team}}</h1> </div>
         <p>{{ data }}</p>
 </body>
+=======
+{% block content %}
+  <h2>Team Detail - Team {{ team_id }}</h2>
+  
+  <!-- Display Team Details -->
+  <h3>Team Details</h3>
+  <p>Team: {{ team_detail.Team }}</p>
+  <p>Won: {{ team_detail.Won }}</p>
+  <p>Lose: {{ team_detail.Lose }}</p>
+  <!-- Add other team details here -->
+
+  <!-- Display List of Players -->
+  <h3>List of Players</h3>
+  <ul>
+    {% for player in players %}
+      <li><a href="{% url 'audience:player_information' player.Id %}">{{ player.Name }}</a></li>
+    {% endfor %}
+  </ul>
+{% endblock %}
+>>>>>>> 2124615b815f89a1a5e539b6d7e92209d17e9cd3

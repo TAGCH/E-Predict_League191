@@ -1,0 +1,545 @@
+Id,Name,Weight,Height (meter),Age,citizenship,Team,Jersey,Position,Appearances,SubIns,Total PlayTime (min),AveragePlayTime (min),FoulsCommitted,FoulsSuffered,OwnGoals,OffSides,RedCards,YellowCards,GoalAssists,ShotsOnTarget,TotalShots,TotalGoals,GoalsConceded,ShotsFaced,UpdateTime,team_id
+560,Erling Haaland,192 lbs,1.93,23,Norway,Manchester City,9,Forward,35,2,2924,85,31,24,0,6,0,5,8,60,125,36,25,0,2023-07-30T19:56:54Z,13
+356,Harry Kane,190 lbs,1.88,30,England,Tottenham Hotspur,10,Forward,38,0,3627,96,27,56,0,7,0,6,3,58,128,30,61,0,2023-07-30T19:56:58Z,18
+439,Ivan Toney,152 lbs,1.78,27,England,Brentford,17,Forward,33,0,3149,96,52,74,0,7,0,9,4,36,92,20,40,0,2023-07-30T19:56:58Z,4
+86,Mohamed Salah,157 lbs,1.75,31,Egypt,Liverpool,11,Forward,38,1,3478,93,16,33,0,10,0,2,13,44,122,19,43,0,2023-07-30T19:56:58Z,12
+303,Callum Wilson,146 lbs,1.8,31,England,Newcastle United,9,Forward,31,10,1962,64,19,31,0,1,0,4,5,32,69,18,16,0,2023-07-30T19:56:57Z,15
+531,Marcus Rashford,152 lbs,1.8,25,England,Manchester United,10,Forward,35,3,3023,87,13,23,0,5,0,2,5,44,106,17,38,0,2023-07-30T19:56:59Z,14
+28,Gabriel Martinelli,163 lbs,1.78,22,Brazil,Arsenal,11,Forward,36,2,2925,82,39,37,0,6,0,3,5,28,75,15,32,0,2023-07-30T19:56:55Z,1
+17,Martin Ødegaard,150 lbs,1.78,24,Norway,Arsenal,8,Midfielder,37,0,3256,89,30,26,0,10,0,4,8,29,91,15,37,0,2023-07-30T19:56:55Z,1
+149,Ollie Watkins,152 lbs,1.8,27,England,Aston Villa,11,Forward,37,1,3288,90,26,39,0,3,0,4,6,43,82,15,37,0,2023-07-30T19:56:57Z,2
+120,Aleksandar Mitrovic,194 lbs,1.88,28,Serbia,Fulham,9,Forward,24,1,2123,90,32,41,0,0,0,7,1,31,86,14,30,0,2023-07-30T19:56:56Z,9
+21,Bukayo Saka,159 lbs,1.78,21,England,Arsenal,7,Midfielder,38,1,3360,89,38,65,0,2,0,6,11,31,87,14,41,0,2023-07-30T19:56:55Z,1
+235,Rodrigo,170 lbs,1.83,32,Spain,Leeds United,19,Forward,31,8,2043,67,28,11,0,5,0,6,1,25,63,13,43,0,2023-07-30T20:58:13Z,10
+462,Harvey Barnes,146 lbs,1.75,25,England,Leicester City,7,Midfielder,34,2,2848,85,36,37,0,7,0,3,1,35,71,13,46,0,2023-07-30T20:58:15Z,11
+462,Harvey Barnes,146 lbs,1.75,25,England,Newcastle United,,Midfielder,34,2,2848,85,36,37,0,7,0,3,1,35,71,13,46,0,2023-07-30T19:56:57Z,15
+555,Phil Foden,152 lbs,1.7,23,England,Manchester City,47,Midfielder,32,10,1977,63,9,29,0,5,0,1,6,21,46,11,15,0,2023-07-30T19:56:54Z,13
+25,Gabriel Jesus,161 lbs,1.75,26,Brazil,Arsenal,9,Forward,26,2,2151,84,40,57,0,2,0,6,6,31,78,11,22,0,2023-07-30T19:56:55Z,1
+293,Miguel Almirón,152 lbs,1.75,29,Paraguay,Newcastle United,24,Midfielder,34,5,2575,77,21,33,0,6,0,2,4,20,65,11,20,0,2023-07-30T19:56:57Z,15
+274,Taiwo Awoniyi,183 lbs,1.83,25,Nigeria,Nottingham Forest,9,Forward,27,10,1474,56,23,19,0,0,0,2,1,15,36,10,29,0,2023-07-30T19:56:55Z,16
+306,Alexander Isak,170 lbs,1.93,23,Sweden,Newcastle United,14,Forward,22,5,1614,74,19,15,0,5,0,3,2,25,49,10,18,0,2023-07-30T19:56:57Z,15
+461,James Maddison,161 lbs,1.75,26,England,Tottenham Hotspur,,Midfielder,30,2,2611,88,31,79,0,9,0,10,9,24,83,10,51,0,2023-07-30T19:56:58Z,18
+461,James Maddison,161 lbs,1.75,26,England,Leicester City,10,Midfielder,30,2,2611,88,31,79,0,9,0,10,9,24,83,10,51,0,2023-07-30T20:58:15Z,11
+47,Eberechi Eze,161 lbs,1.78,25,England,Crystal Palace,10,Midfielder,38,8,2776,74,27,57,0,8,0,3,5,20,69,10,32,0,2023-07-30T19:56:57Z,7
+357,Son Heung-Min,170 lbs,1.83,31,South Korea,Tottenham Hotspur,7,Forward,36,3,3034,85,10,36,0,4,0,2,6,35,80,10,54,0,2023-07-30T19:56:58Z,18
+487,Alexis Mac Allister,150 lbs,1.75,24,Argentina,Liverpool,10,Midfielder,35,4,3095,89,34,57,1,7,0,8,2,31,84,10,40,0,2023-07-30T19:56:58Z,12
+561,Julián Álvarez,157 lbs,1.7,23,Argentina,Manchester City,19,Forward,31,18,1592,52,20,14,0,4,0,0,0,21,45,9,16,0,2023-07-30T19:56:54Z,13
+89,Darwin Núñez,179 lbs,1.88,24,Uruguay,Liverpool,9,Forward,29,10,1794,63,22,17,0,5,1,1,3,29,79,9,20,0,2023-07-30T19:56:58Z,12
+436,Bryan Mbeumo,139 lbs,1.73,23,Cameroon,Brentford,19,Midfielder,38,2,3012,80,25,23,0,7,0,5,9,32,69,9,40,0,2023-07-30T19:56:58Z,4
+485,Pascal Groß,172 lbs,1.8,32,Germany,Brighton & Hove Albion,13,Midfielder,37,0,3443,94,35,18,1,5,0,7,9,19,40,9,45,0,2023-07-30T19:56:56Z,5
+321,James Ward-Prowse,146 lbs,1.73,28,England,Southampton,8,Midfielder,38,0,3606,96,33,19,1,5,0,6,5,14,43,9,67,0,2023-07-30T20:58:14Z,17
+148,Danny Ings,161 lbs,1.78,31,England,West Ham United,18,Forward,35,20,1718,50,16,14,0,0,0,4,2,18,40,8,26,0,2023-07-30T19:56:55Z,19
+499,Leandro Trossard,132 lbs,1.73,28,Belgium,Arsenal,19,Forward,36,10,2371,67,18,30,0,6,0,1,12,22,55,8,35,0,2023-07-30T19:56:55Z,1
+277,Brennan Johnson,161 lbs,1.78,22,Wales,Nottingham Forest,20,Forward,38,5,3096,83,36,21,0,2,0,6,3,25,53,8,54,0,2023-07-30T19:56:55Z,16
+520,Bruno Fernandes,150 lbs,1.78,28,Portugal,Manchester United,8,Midfielder,37,0,3511,96,42,40,0,10,0,6,8,28,90,8,38,0,2023-07-30T19:56:59Z,14
+87,Diogo Jota,150 lbs,1.78,26,Portugal,Liverpool,20,Forward,22,10,1215,56,19,15,0,0,0,2,4,10,33,7,19,0,2023-07-30T19:56:58Z,12
+697,Cody Gakpo,168 lbs,1.93,24,Netherlands,Liverpool,18,Forward,21,4,1526,74,24,33,0,3,0,0,2,12,40,7,18,0,2023-07-30T19:56:58Z,12
+430,Yoane Wissa,161 lbs,1.75,26,France,Brentford,11,Midfielder,38,22,1748,47,20,26,0,3,0,3,3,15,31,7,15,0,2023-07-30T19:56:58Z,4
+490,Kaoru Mitoma,159 lbs,1.78,26,Japan,Brighton & Hove Albion,22,Midfielder,33,9,2486,76,23,27,0,6,0,0,6,21,52,7,32,0,2023-07-30T19:56:56Z,5
+550,Kevin De Bruyne,150 lbs,1.8,32,Belgium,Manchester City,17,Midfielder,32,4,2552,81,20,29,0,10,0,1,16,20,65,7,22,0,2023-07-30T19:56:54Z,13
+406,Dwight McNeil,150 lbs,1.83,23,England,Everton,7,Forward,36,8,2657,75,22,21,0,4,0,5,3,15,45,7,46,0,2023-07-30T19:56:56Z,8
+379,Kai Havertz,183 lbs,1.93,24,Germany,Arsenal,29,Midfielder,35,5,2709,78,54,25,0,3,0,5,1,31,70,7,29,0,2023-07-30T19:56:55Z,1
+486,Solly March,192 lbs,1.8,29,England,Brighton & Hove Albion,7,Midfielder,33,2,2870,88,46,39,0,2,0,2,8,31,71,7,36,0,2023-07-30T19:56:56Z,5
+170,Philip Billing,183 lbs,1.93,27,Denmark,AFC Bournemouth,29,Midfielder,36,2,2879,81,30,35,0,3,0,5,1,14,36,7,51,0,2023-07-30T19:56:55Z,
+501,Evan Ferguson,172 lbs,1.83,18,,Brighton & Hove Albion,28,Forward,19,9,1017,55,9,11,0,1,0,1,3,15,35,6,12,0,2023-07-30T19:56:56Z,5
+530,Anthony Martial,168 lbs,1.8,27,France,Manchester United,9,Forward,21,10,1035,50,7,13,0,2,0,0,2,13,27,6,8,0,2023-07-30T19:56:59Z,14
+532,Jadon Sancho,168 lbs,1.8,23,England,Manchester United,25,Forward,26,5,1756,69,9,10,0,2,0,0,3,9,21,6,18,0,2023-07-30T19:56:59Z,14
+197,Daniel Podence,128 lbs,1.65,27,Portugal,Wolverhampton Wanderers,10,Midfielder,32,12,1892,60,26,23,0,3,0,5,0,17,39,6,30,0,2023-07-30T19:56:59Z,20
+498,Danny Welbeck,161 lbs,1.85,32,England,Brighton & Hove Albion,18,Forward,31,10,1978,65,25,18,0,2,0,0,3,21,60,6,24,0,2023-07-30T19:56:56Z,5
+383,Raheem Sterling,150 lbs,1.73,28,England,Chelsea,17,Forward,28,5,1987,72,21,32,0,2,0,4,3,16,41,6,25,0,2023-07-30T19:56:58Z,6
+590,Saïd Benrahma,148 lbs,1.73,27,Algeria,West Ham United,22,Forward,35,13,2189,64,13,15,0,5,0,0,3,25,70,6,31,0,2023-07-30T19:56:55Z,19
+146,Jacob Ramsey,,1.8,22,England,Aston Villa,41,Midfielder,35,4,2766,80,35,45,1,6,0,5,7,13,35,6,30,0,2023-07-30T19:56:57Z,2
+305,Joelinton,179 lbs,1.85,26,Brazil,Newcastle United,7,Forward,32,2,2837,90,64,34,0,3,0,12,1,18,50,6,25,0,2023-07-30T19:56:57Z,15
+181,Dominic Solanke,174 lbs,1.88,25,England,AFC Bournemouth,9,Forward,33,1,3010,92,37,53,0,2,0,2,7,28,75,6,50,0,2023-07-30T19:56:55Z,
+147,Douglas Luiz,146 lbs,1.75,25,Brazil,Aston Villa,6,Midfielder,37,4,3084,84,46,42,0,2,1,6,6,11,34,6,33,0,2023-07-30T19:56:57Z,2
+591,Jarrod Bowen,152 lbs,1.75,26,England,West Ham United,20,Forward,38,2,3418,91,21,68,0,4,0,2,5,21,73,6,49,0,2023-07-30T19:56:55Z,19
+500,Deniz Undav,190 lbs,1.78,27,Germany,Brighton & Hove Albion,21,Forward,22,16,732,34,14,4,1,1,0,2,0,13,27,5,7,0,2023-07-30T19:56:56Z,5
+237,Luis Sinisterra,130 lbs,1.73,24,Colombia,Leeds United,23,Forward,19,6,906,49,14,12,0,0,1,2,0,11,28,5,22,0,2023-07-30T20:58:13Z,10
+466,Kelechi Iheanacho,181 lbs,1.85,26,Nigeria,Leicester City,14,Forward,28,17,1221,45,18,5,0,3,0,0,6,14,39,5,21,0,2023-07-30T20:58:15Z,11
+121,Carlos Vinicius,190 lbs,1.9,28,Brazil,Fulham,30,Forward,28,17,1249,46,19,15,0,1,0,3,2,11,20,5,20,0,2023-07-30T19:56:56Z,9
+348,Rodrigo Bentancur,159 lbs,1.88,26,Uruguay,Tottenham Hotspur,30,Midfielder,18,1,1572,88,24,8,0,3,0,8,2,9,15,5,24,0,2023-07-30T19:56:58Z,18
+404,Abdoulaye Doucouré,163 lbs,1.83,30,Mali,Everton,16,Midfielder,25,8,1671,68,20,4,0,2,1,6,2,8,19,5,27,0,2023-07-30T19:56:56Z,8
+175,Marcus Tavernier,152 lbs,1.78,24,England,AFC Bournemouth,16,Midfielder,23,4,1830,81,20,28,0,1,0,1,4,14,37,5,35,0,2023-07-30T19:56:55Z,
+56,Odsonne Édouard,183 lbs,1.88,25,France,Crystal Palace,22,Forward,35,15,1909,56,26,17,0,2,0,3,2,14,39,5,25,0,2023-07-30T19:56:57Z,7
+588,Michail Antonio,181 lbs,1.8,33,Jamaica,West Ham United,9,Forward,33,12,1916,59,23,44,0,1,0,2,3,12,38,5,28,0,2023-07-30T19:56:55Z,19
+330,Ché Adams,152 lbs,1.75,27,Scotland,Southampton,10,Forward,28,5,2117,77,34,27,0,1,0,1,3,14,46,5,38,0,2023-07-30T20:58:14Z,17
+551,Jack Grealish,168 lbs,1.75,27,England,Manchester City,10,Midfielder,28,5,2142,78,25,78,0,5,0,4,7,13,40,5,16,0,2023-07-30T19:56:54Z,13
+119,Willian,170 lbs,1.75,34,Brazil,Fulham,20,Forward,27,2,2191,82,9,24,0,2,0,2,6,15,39,5,20,0,2023-07-30T19:56:56Z,9
+144,Emiliano Buendía,159 lbs,1.73,26,Argentina,Aston Villa,10,Midfielder,38,11,2532,68,40,44,0,3,0,0,2,11,48,5,31,0,2023-07-30T19:56:57Z,2
+228,Jack Harrison,152 lbs,1.75,26,England,Leeds United,11,Midfielder,36,2,2806,79,37,37,0,5,0,2,7,12,36,5,55,0,2023-07-30T20:58:13Z,10
+432,Mathias Jensen,150 lbs,1.8,27,Denmark,Brentford,8,Midfielder,37,0,2898,79,32,25,0,6,0,5,6,6,23,5,38,0,2023-07-30T19:56:58Z,4
+268,Morgan Gibbs-White,,1.7,23,England,Nottingham Forest,10,Midfielder,37,1,3366,92,34,31,0,13,0,6,9,20,60,5,60,0,2023-07-30T19:56:55Z,16
+172,Jefferson Lerma,152 lbs,1.78,28,Colombia,Crystal Palace,8,Midfielder,37,0,3450,94,36,33,1,1,0,7,0,11,36,5,64,0,2023-07-30T19:56:57Z,7
+122,Manor Solomon,146 lbs,1.7,24,Israel,Tottenham Hotspur,,Forward,19,15,667,36,5,4,0,1,0,0,0,7,11,4,11,0,2023-07-30T19:56:58Z,18
+497,Julio Enciso,139 lbs,1.68,19,Paraguay,Brighton & Hove Albion,20,Forward,20,13,890,46,13,15,0,1,0,1,3,17,38,4,11,0,2023-07-30T19:56:56Z,5
+88,Luis Díaz,141 lbs,1.78,26,Colombia,Liverpool,7,Forward,17,6,1064,64,18,24,0,2,0,2,2,8,26,4,11,0,2023-07-30T19:56:58Z,12
+707,Carlos Alcaraz,150 lbs,1.75,20,Argentina,Southampton,26,Midfielder,18,5,1084,61,14,17,0,2,0,3,2,9,22,4,24,0,2023-07-30T20:58:14Z,17
+27,Edward Nketiah,159 lbs,1.75,24,England,Arsenal,14,Forward,30,21,1258,43,26,25,0,0,0,3,1,14,41,4,16,0,2023-07-30T19:56:55Z,1
+469,Patson Daka,157 lbs,1.83,24,Zambia,Leicester City,20,Forward,30,17,1284,44,21,15,0,2,0,2,4,14,28,4,22,0,2023-07-30T20:58:15Z,11
+297,Jacob Murphy,161 lbs,1.78,28,England,Newcastle United,23,Midfielder,36,22,1384,39,8,14,0,2,0,0,2,9,27,4,12,0,2023-07-30T19:56:57Z,15
+180,Kieffer Moore,194 lbs,1.96,30,Wales,AFC Bournemouth,21,Forward,27,15,1390,53,26,30,0,0,0,1,0,8,23,4,32,0,2023-07-30T19:56:55Z,
+433,Josh Dasilva,163 lbs,1.83,24,England,Brentford,10,Midfielder,36,22,1532,44,13,23,0,1,0,1,2,6,18,4,16,0,2023-07-30T19:56:58Z,4
+232,Crysencio Summerville,,1.75,21,Netherlands,Leeds United,10,Midfielder,28,16,1567,57,22,41,0,3,0,4,2,9,29,4,37,0,2023-07-30T20:58:13Z,10
+236,Patrick Bamford,157 lbs,1.85,29,England,Leeds United,9,Forward,28,10,1604,58,23,28,0,1,0,3,3,16,48,4,30,0,2023-07-30T20:58:13Z,10
+416,Anthony Gordon,159 lbs,1.83,22,England,Newcastle United,8,Forward,32,16,1713,55,27,23,0,3,0,7,0,17,31,4,18,0,2023-07-30T19:56:57Z,15
+533,Antony,139 lbs,1.75,23,Brazil,Manchester United,21,Forward,25,2,1869,76,15,25,0,0,0,5,2,24,70,4,21,0,2023-07-30T19:56:59Z,14
+150,Leon Bailey,170 lbs,1.78,25,Jamaica,Aston Villa,31,Forward,33,7,2057,63,29,23,0,0,0,4,4,13,50,4,29,0,2023-07-30T19:56:57Z,2
+581,Lucas Paquetá,159 lbs,1.8,25,Brazil,West Ham United,10,Midfielder,28,1,2222,80,48,30,0,9,0,5,4,13,50,4,40,0,2023-07-30T19:56:55Z,19
+523,Casemiro,183 lbs,1.85,31,Brazil,Manchester United,18,Midfielder,28,4,2254,82,48,24,0,8,2,7,3,11,34,4,22,0,2023-07-30T19:56:59Z,14
+552,Bernardo Silva,139 lbs,1.73,28,Portugal,Manchester City,20,Midfielder,34,10,2346,70,29,15,0,2,0,5,5,9,25,4,23,0,2023-07-30T19:56:54Z,13
+118,Bobby De Cordova-Reid,150 lbs,1.7,30,Jamaica,Fulham,14,Forward,36,7,2599,73,33,22,0,4,0,8,1,10,30,4,38,0,2023-07-30T19:56:56Z,9
+414,Demarai Gray,161 lbs,1.8,27,Jamaica,Everton,11,Forward,33,6,2638,81,23,51,0,0,0,3,1,22,59,4,39,0,2023-07-30T19:56:56Z,8
+113,Andreas Pereira,157 lbs,1.78,27,Brazil,Fulham,18,Midfielder,33,0,2777,85,40,31,0,6,0,8,6,16,61,4,38,0,2023-07-30T19:56:56Z,9
+54,Jordan Ayew,174 lbs,1.83,31,Ghana,Crystal Palace,9,Forward,38,7,2856,76,46,90,0,2,0,5,3,10,32,4,38,0,2023-07-30T19:56:57Z,7
+298,Bruno Guimarães,161 lbs,1.83,25,Brazil,Newcastle United,39,Midfielder,32,0,2884,91,43,83,0,10,0,7,5,8,28,4,23,0,2023-07-30T19:56:57Z,15
+347,Pierre-Emile Hojbjerg,183 lbs,1.88,27,Denmark,Tottenham Hotspur,5,Midfielder,35,0,3333,96,37,36,0,5,0,5,5,8,31,4,56,0,2023-07-30T19:56:58Z,18
+582,Declan Rice,183 lbs,1.85,24,England,Arsenal,41,Midfielder,37,1,3483,95,23,11,0,5,0,5,4,7,34,4,49,0,2023-07-30T19:56:55Z,1
+26,Reiss Nelson,157 lbs,1.75,23,England,Arsenal,24,Forward,11,11,272,26,8,4,0,0,0,0,2,7,12,3,3,0,2023-07-30T19:56:55Z,1
+528,Alejandro Garnacho,174 lbs,1.8,19,Argentina,Manchester United,49,Forward,19,14,618,34,8,8,0,0,0,3,2,9,23,3,12,0,2023-07-30T19:56:59Z,14
+302,Chris Wood,179 lbs,1.9,31,New Zealand,Nottingham Forest,39,Forward,25,16,900,37,6,7,0,0,0,0,0,5,12,3,9,0,2023-07-30T19:56:55Z,16
+592,Gianluca Scamacca,185 lbs,1.96,24,Italy,West Ham United,11,Forward,16,5,977,62,16,10,0,1,0,3,0,10,30,3,12,0,2023-07-30T19:56:55Z,19
+726,Danilo,150 lbs,1.75,22,Brazil,Nottingham Forest,28,Midfielder,13,1,1035,81,4,3,0,3,0,1,2,4,14,3,18,0,2023-07-30T19:56:55Z,16
+79,Curtis Jones,163 lbs,1.85,22,England,Liverpool,17,Midfielder,18,6,1085,61,13,15,0,1,0,2,1,4,14,3,15,0,2023-07-30T19:56:58Z,12
+755,Pedro Porro,150 lbs,1.73,23,Spain,Tottenham Hotspur,23,Defender,15,2,1194,81,12,16,0,2,0,0,3,7,25,3,26,0,2023-07-30T19:56:58Z,18
+208,Hwang Hee-Chan,170 lbs,1.78,27,South Korea,Wolverhampton Wanderers,11,Forward,27,15,1221,46,20,19,0,1,0,1,1,7,18,3,17,0,2023-07-30T19:56:59Z,20
+182,Jaidon Anthony,,1.83,23,England,AFC Bournemouth,32,Forward,30,19,1383,47,9,12,0,1,0,2,1,12,22,3,28,0,2023-07-30T19:56:55Z,
+579,Pablo Fornals,148 lbs,1.78,27,Spain,West Ham United,8,Midfielder,32,15,1598,51,14,7,0,4,0,0,2,7,26,3,27,0,2023-07-30T19:56:55Z,19
+378,Mason Mount,168 lbs,1.8,24,England,Manchester United,7,Midfielder,24,4,1732,73,28,27,0,4,0,4,2,9,32,3,19,0,2023-07-30T19:56:59Z,14
+380,Conor Gallagher,170 lbs,1.83,23,England,Chelsea,23,Midfielder,35,17,1778,52,34,36,0,3,1,10,1,10,27,3,20,0,2023-07-30T19:56:58Z,6
+467,Jamie Vardy,161 lbs,1.78,36,England,Leicester City,9,Forward,37,18,1984,55,20,7,0,1,0,1,4,12,26,3,36,0,2023-07-30T20:58:15Z,11
+221,Rasmus Kristensen,152 lbs,1.88,26,Denmark,Leeds United,25,Defender,26,5,2103,82,18,6,0,2,0,4,1,5,13,3,52,0,2023-07-30T20:58:13Z,10
+431,Vitaly Janelt,172 lbs,1.83,25,Germany,Brentford,27,Midfielder,35,11,2352,68,19,21,0,5,0,3,1,5,13,3,27,0,2023-07-30T19:56:58Z,4
+460,Youri Tielemans,159 lbs,1.75,26,Belgium,Leicester City,8,Midfielder,31,4,2457,80,32,25,0,5,0,4,2,8,27,3,47,0,2023-07-30T20:58:15Z,11
+460,Youri Tielemans,159 lbs,1.75,26,Belgium,Aston Villa,8,Midfielder,31,4,2457,80,32,25,0,5,0,4,2,8,27,3,47,0,2023-07-30T19:56:57Z,2
+46,Jeff Schlupp,159 lbs,1.78,30,Ghana,Crystal Palace,15,Midfielder,34,4,2633,78,47,33,0,6,0,7,1,9,28,3,37,0,2023-07-30T19:56:57Z,7
+301,Joe Willock,157 lbs,1.78,23,England,Newcastle United,28,Midfielder,35,4,2655,77,35,23,0,4,0,1,6,14,56,3,25,0,2023-07-30T19:56:57Z,15
+16,Thomas Partey,170 lbs,1.85,30,Ghana,Arsenal,5,Midfielder,33,5,2658,82,36,23,0,3,0,5,0,4,27,3,27,0,2023-07-30T19:56:55Z,1
+426,Ethan Pinnock,172 lbs,1.88,30,Jamaica,Brentford,5,Defender,30,0,2901,98,5,10,1,4,0,0,0,9,14,3,31,0,2023-07-30T19:56:58Z,4
+109,Harrison Reed,159 lbs,1.8,28,England,Fulham,6,Midfielder,37,2,3002,82,36,21,1,5,0,5,4,8,20,3,42,0,2023-07-30T19:56:56Z,9
+67,Virgil van Dijk,203 lbs,1.96,32,Netherlands,Liverpool,4,Defender,32,0,3018,95,12,3,0,1,0,3,1,9,30,3,35,0,2023-07-30T19:56:58Z,12
+114,João Palhinha,183 lbs,1.9,28,Portugal,Fulham,26,Midfielder,35,0,3310,96,47,50,1,4,0,14,0,9,40,3,41,0,2023-07-30T19:56:56Z,9
+422,Ben Mee,161 lbs,1.8,33,England,Brentford,16,Defender,37,0,3504,96,12,15,0,6,0,2,2,8,29,3,38,0,2023-07-30T19:56:58Z,4
+7,Gabriel,172 lbs,1.9,25,Brazil,Arsenal,6,Defender,38,0,3641,97,25,40,0,4,0,5,0,8,31,3,42,0,2023-07-30T19:56:55Z,1
+736,Bertrand Traoré,161 lbs,1.8,27,Burkina Faso,Aston Villa,9,Forward,8,7,267,34,2,8,0,1,0,1,0,3,9,2,1,0,2023-07-30T19:56:57Z,2
+484,Adam Lallana,161 lbs,1.73,35,England,Brighton & Hove Albion,,Midfielder,16,4,751,48,2,7,0,2,0,0,1,5,8,2,9,0,2023-07-30T19:56:56Z,5
+276,Emmanuel Dennis,148 lbs,1.75,25,Nigeria,Nottingham Forest,25,Forward,19,13,787,42,13,29,0,1,0,3,2,7,20,2,17,0,2023-07-30T19:56:55Z,16
+350,Ryan Sessegnon,152 lbs,1.78,23,England,Tottenham Hotspur,19,Midfielder,17,8,874,52,15,6,0,0,0,4,1,6,16,2,14,0,2023-07-30T19:56:58Z,18
+57,Jean-Philippe Mateta,192 lbs,1.93,26,France,Crystal Palace,14,Forward,29,23,880,31,14,8,0,0,0,3,0,7,27,2,9,0,2023-07-30T19:56:57Z,7
+753,Kamaldeen Sulemana,152 lbs,1.75,21,Ghana,Southampton,20,Midfielder,18,8,1041,59,9,12,0,2,0,1,1,7,23,2,19,0,2023-07-30T20:58:14Z,17
+105,Tom Cairney,183 lbs,1.85,32,Scotland,Fulham,10,Midfielder,33,27,1144,36,8,22,0,1,0,2,1,2,18,2,15,0,2023-07-30T19:56:56Z,9
+111,Harry Wilson,139 lbs,1.73,26,Wales,Fulham,8,Midfielder,29,16,1201,42,9,32,0,1,0,1,3,4,17,2,14,0,2023-07-30T19:56:56Z,9
+328,Theo Walcott,150 lbs,1.75,34,England,Southampton,32,Forward,20,7,1202,61,7,10,1,0,0,1,2,8,20,2,29,0,2023-07-30T20:58:14Z,17
+415,Dominic Calvert-Lewin,157 lbs,1.88,26,England,Everton,9,Forward,17,2,1203,72,22,14,0,0,0,3,1,10,31,2,22,0,2023-07-30T19:56:56Z,8
+323,Joe Aribo,168 lbs,1.83,27,Nigeria,Southampton,7,Midfielder,21,8,1293,63,10,13,0,0,0,2,0,8,14,2,22,0,2023-07-30T20:58:14Z,17
+544,João Cancelo,161 lbs,1.83,29,Portugal,Manchester City,7,Defender,17,1,1339,80,12,18,0,2,1,3,1,3,16,2,15,0,2023-07-30T19:56:54Z,13
+522,Fred,139 lbs,1.7,30,Brazil,Manchester United,17,Midfielder,35,23,1395,41,33,22,0,4,0,6,2,5,26,2,21,0,2023-07-30T19:56:59Z,14
+329,Adam Armstrong,150 lbs,1.75,26,England,Southampton,9,Forward,30,16,1446,49,17,9,0,0,0,2,2,12,25,2,23,0,2023-07-30T20:58:14Z,17
+240,Wilfried Gnonto,141 lbs,1.73,19,Italy,Leeds United,29,Forward,24,10,1457,62,28,39,0,4,0,7,4,8,21,2,28,0,2023-07-30T20:58:13Z,10
+367,Ben Chilwell,170 lbs,1.78,26,England,Chelsea,21,Defender,23,8,1514,67,12,23,0,4,0,3,2,4,16,2,18,0,2023-07-30T19:56:58Z,6
+319,Stuart Armstrong,163 lbs,1.83,31,Scotland,Southampton,17,Midfielder,32,18,1518,48,16,20,0,2,0,6,2,6,23,2,33,0,2023-07-30T20:58:14Z,17
+574,Nayef Aguerd,168 lbs,1.9,27,Morocco,West Ham United,27,Defender,18,1,1692,95,8,8,0,4,0,4,0,2,12,2,28,0,2023-07-30T19:56:55Z,19
+343,Emerson Royal,172 lbs,1.8,24,Brazil,Tottenham Hotspur,12,Defender,26,6,1848,72,20,33,0,6,1,2,1,6,17,2,27,0,2023-07-30T19:56:58Z,18
+541,John Stones,174 lbs,1.88,29,England,Manchester City,5,Defender,23,2,1955,86,11,8,1,1,0,2,2,4,12,2,16,0,2023-07-30T19:56:54Z,13
+313,Romain Perraud,150 lbs,1.73,25,France,Southampton,15,Defender,29,7,1959,69,31,15,1,5,0,4,2,7,30,2,33,0,2023-07-30T20:58:14Z,17
+571,Kurt Zouma,212 lbs,1.9,28,France,West Ham United,4,Defender,25,1,2101,85,15,7,0,2,0,0,0,5,19,2,28,0,2023-07-30T19:56:55Z,19
+352,Dejan Kulusevski,174 lbs,1.85,23,Sweden,Tottenham Hotspur,21,Midfielder,30,7,2154,73,33,25,0,1,0,2,7,10,43,2,39,0,2023-07-30T19:56:58Z,18
+217,Luke Ayling,159 lbs,1.85,31,England,Leeds United,2,Defender,29,7,2220,78,13,35,0,8,0,3,1,3,21,2,48,0,2023-07-30T20:58:13Z,10
+372,Jorginho,141 lbs,1.8,31,Italy,Arsenal,20,Midfielder,32,8,2287,73,16,41,0,5,0,4,1,3,11,2,23,0,2023-07-30T19:56:55Z,1
+222,Pascal Struijk,172 lbs,1.9,23,Netherlands,Leeds United,21,Defender,29,3,2344,82,28,12,0,5,0,5,1,8,17,2,52,0,2023-07-30T20:58:13Z,10
+463,Kiernan Dewsbury-Hall,,1.78,24,England,Leicester City,22,Midfielder,31,3,2427,79,33,35,0,10,1,4,2,6,24,2,37,0,2023-07-30T20:58:15Z,11
+337,Ben Davies,170 lbs,1.8,30,Wales,Tottenham Hotspur,33,Defender,31,5,2438,80,29,17,0,4,0,4,2,5,14,2,33,0,2023-07-30T19:56:58Z,18
+10,William Saliba,203 lbs,1.93,22,France,Arsenal,2,Defender,27,0,2578,97,18,13,1,0,0,4,1,4,7,2,24,0,2023-07-30T19:56:55Z,1
+159,Marcos Senesi,174 lbs,1.85,26,Argentina,AFC Bournemouth,25,Defender,31,2,2637,86,29,13,0,9,0,7,0,2,8,2,53,0,2023-07-30T19:56:55Z,
+49,Michael Olise,168 lbs,1.83,21,France,Crystal Palace,7,Midfielder,37,6,2893,79,28,69,0,2,0,2,11,11,50,2,36,0,2023-07-30T19:56:57Z,7
+580,Tomás Soucek,190 lbs,1.93,28,Czech Republic,West Ham United,28,Midfielder,36,4,2983,84,45,16,0,0,0,3,3,14,35,2,41,0,2023-07-30T19:56:55Z,19
+340,Eric Dier,183 lbs,1.88,29,England,Tottenham Hotspur,15,Defender,33,2,3009,92,25,11,0,4,0,3,1,4,17,2,51,0,2023-07-30T19:56:58Z,18
+554,Rodri,181 lbs,1.9,27,Spain,Manchester City,16,Midfielder,36,2,3077,87,45,20,0,1,0,5,6,13,46,2,25,0,2023-07-30T19:56:54Z,13
+68,Trent Alexander-Arnold,159 lbs,1.75,24,England,Liverpool,66,Defender,37,3,3083,84,21,6,0,8,0,5,10,7,39,2,42,0,2023-07-30T19:56:58Z,12
+9,Ben White,168 lbs,1.85,25,England,Arsenal,4,Defender,38,2,3215,86,28,29,0,6,0,5,5,2,10,2,34,0,2023-07-30T19:56:55Z,1
+451,Timothy Castagne,174 lbs,1.85,27,Belgium,Leicester City,27,Defender,37,1,3444,94,24,15,0,4,0,3,3,4,17,2,59,0,2023-07-30T20:58:15Z,11
+412,Alex Iwobi,163 lbs,1.8,27,Nigeria,Everton,17,Forward,38,0,3590,96,16,15,0,9,0,2,7,14,40,2,56,0,2023-07-30T19:56:56Z,8
+756,Arnaut Danjuma,161 lbs,1.78,26,Netherlands,Everton,10,Forward,9,8,213,25,0,1,0,0,0,0,0,3,4,1,5,0,2023-07-30T19:56:56Z,8
+742,Antoine Semenyo,172 lbs,1.85,23,Ghana,AFC Bournemouth,24,Forward,11,9,311,29,5,5,0,0,0,0,0,1,3,1,6,0,2023-07-30T19:56:55Z,
+384,Armando Broja,183 lbs,1.9,21,Albania,Chelsea,18,Forward,12,10,352,30,2,6,0,0,0,0,0,4,5,1,5,0,2023-07-30T19:56:58Z,6
+34,James Tomkins,161 lbs,1.93,34,England,Crystal Palace,5,Defender,6,3,361,61,3,1,0,0,1,2,0,1,2,1,10,0,2023-07-30T19:56:57Z,7
+732,Jakub Kiwior,163 lbs,1.88,23,Poland,Arsenal,15,Defender,7,2,460,67,1,1,0,0,0,0,0,1,1,1,6,0,2023-07-30T19:56:55Z,1
+449,Ricardo Pereira,152 lbs,1.75,29,Portugal,Leicester City,21,Defender,10,5,502,51,4,4,0,2,0,2,1,1,3,1,10,0,2023-07-30T20:58:15Z,11
+239,Sam Greenwood,,1.85,21,England,Leeds United,42,Forward,18,15,503,29,11,3,0,0,0,1,2,3,13,1,11,0,2023-07-30T20:58:13Z,10
+73,Stefan Bajcetic,170 lbs,1.85,18,Spain,Liverpool,43,Midfielder,11,5,550,51,7,9,0,0,0,2,0,2,6,1,3,0,2023-07-30T19:56:58Z,12
+454,Caglar Söyüncü,181 lbs,1.85,27,Turkey,Leicester City,4,Defender,7,1,562,81,7,4,0,4,0,2,0,2,5,1,13,0,2023-07-30T20:58:15Z,11
+12,Fabio Vieira,128 lbs,1.7,23,Portugal,Arsenal,21,Midfielder,22,19,605,29,3,5,0,0,0,0,2,2,15,1,5,0,2023-07-30T19:56:55Z,1
+715,Facundo Buonanotte,146 lbs,1.75,18,Argentina,Brighton & Hove Albion,40,Midfielder,13,7,612,48,9,7,0,0,0,2,1,3,11,1,9,0,2023-07-30T19:56:56Z,5
+6,Rob Holding,179 lbs,1.88,27,England,Arsenal,16,Defender,14,8,636,46,5,2,0,2,0,0,0,2,5,1,13,0,2023-07-30T19:56:55Z,1
+269,Lewis O'Brien,161 lbs,1.73,24,England,Nottingham Forest,14,Midfielder,13,7,637,50,5,15,0,0,0,2,0,2,7,1,14,0,2023-07-30T19:56:55Z,16
+331,Sékou Mara,,1.83,21,France,Southampton,18,Forward,22,18,657,31,20,6,0,3,0,1,2,4,16,1,10,0,2023-07-30T20:58:14Z,17
+729,Noni Madueke,163 lbs,1.75,21,England,Chelsea,31,Forward,12,5,673,57,4,15,0,0,0,0,0,6,11,1,13,0,2023-07-30T19:56:58Z,6
+338,Matt Doherty,174 lbs,1.85,31,Republic of Ireland,Wolverhampton Wanderers,,Defender,12,5,705,60,11,4,0,2,0,0,0,2,9,1,8,0,2023-07-30T19:56:59Z,20
+745,João Gomes,161 lbs,1.73,22,Brazil,Wolverhampton Wanderers,35,Midfielder,11,4,713,66,17,16,0,1,0,5,0,2,4,1,18,0,2023-07-30T19:56:59Z,20
+458,Dennis Praet,172 lbs,1.8,29,Belgium,Leicester City,26,Midfielder,22,16,727,34,9,8,0,1,0,1,0,2,5,1,10,0,2023-07-30T20:58:15Z,11
+206,Goncalo Guedes,150 lbs,1.78,26,Portugal,Wolverhampton Wanderers,17,Forward,13,5,751,59,10,23,0,0,0,1,1,5,19,1,12,0,2023-07-30T19:56:59Z,20
+761,Mateus Tetê,152 lbs,1.75,23,Brazil,Leicester City,37,Midfielder,13,4,765,60,3,17,0,3,0,0,0,1,15,1,14,0,2023-07-30T20:58:15Z,11
+725,Pablo Sarabia,152 lbs,1.75,31,Spain,Wolverhampton Wanderers,21,Midfielder,13,4,814,64,11,8,0,2,0,3,0,5,19,1,9,0,2023-07-30T19:56:59Z,20
+457,Nampalys Mendy,161 lbs,1.68,31,Senegal,Leicester City,24,Midfielder,19,12,820,44,9,10,0,2,0,1,0,1,2,1,13,0,2023-07-30T20:58:15Z,11
+139,Philippe Coutinho,150 lbs,1.73,31,Brazil,Aston Villa,23,Midfielder,20,13,856,44,16,14,0,1,0,3,0,7,20,1,10,0,2023-07-30T19:56:57Z,2
+44,Will Hughes,161 lbs,1.85,28,England,Crystal Palace,19,Midfielder,27,20,944,36,17,7,0,2,0,4,1,4,6,1,10,0,2023-07-30T19:56:57Z,7
+263,Cheikhou Kouyaté,183 lbs,1.88,33,Senegal,Nottingham Forest,21,Midfielder,21,11,968,47,21,12,0,1,0,3,0,5,6,1,23,0,2023-07-30T19:56:55Z,16
+710,Benoit Badiashile,163 lbs,1.93,22,France,Chelsea,4,Defender,11,1,983,90,8,6,0,1,0,2,0,2,6,1,9,0,2023-07-30T19:56:58Z,6
+310,Duje Caleta-Car,194 lbs,1.93,26,Croatia,Southampton,6,Defender,13,4,1012,79,9,1,0,4,0,2,0,2,5,1,15,0,2023-07-30T20:58:14Z,17
+390,Michael Keane,181 lbs,1.9,30,England,Everton,5,Defender,12,2,1055,89,6,4,0,3,0,0,2,4,14,1,22,0,2023-07-30T19:56:56Z,8
+194,Tote Gomes,159 lbs,1.88,24,Portugal,Wolverhampton Wanderers,24,Defender,17,7,1068,64,15,5,0,1,0,6,0,2,5,1,14,0,2023-07-30T19:56:59Z,20
+358,Richarlison,183 lbs,1.83,26,Brazil,Tottenham Hotspur,9,Forward,27,15,1110,42,14,22,0,0,0,3,3,13,26,1,18,0,2023-07-30T19:56:58Z,18
+66,Joël Matip,196 lbs,1.96,31,Cameroon,Liverpool,32,Defender,14,2,1162,84,9,5,1,1,0,3,0,3,6,1,19,0,2023-07-30T19:56:58Z,12
+191,Rayan Aït-Nouri,152 lbs,1.78,22,Algeria,Wolverhampton Wanderers,3,Defender,21,12,1162,56,13,11,1,2,0,4,0,6,11,1,17,0,2023-07-30T19:56:59Z,20
+304,Allan Saint-Maximin,148 lbs,1.73,26,France,Newcastle United,10,Forward,25,13,1213,50,6,16,0,3,0,1,5,10,28,1,13,0,2023-07-30T19:56:57Z,15
+413,Neal Maupay,150 lbs,1.73,26,France,Everton,20,Forward,27,16,1219,46,13,21,0,1,0,4,1,13,31,1,19,0,2023-07-30T19:56:56Z,8
+525,Scott McTominay,192 lbs,1.93,26,Scotland,Manchester United,39,Midfielder,24,14,1256,53,28,17,0,1,0,8,0,5,12,1,20,0,2023-07-30T19:56:59Z,14
+311,Lyanco,185 lbs,1.88,26,Brazil,Southampton,4,Defender,21,10,1307,63,16,10,0,1,0,4,1,4,12,1,24,0,2023-07-30T20:58:14Z,17
+723,Dango Ouattara,157 lbs,1.78,21,Burkina Faso,AFC Bournemouth,11,Forward,19,4,1308,70,5,15,0,2,0,1,3,5,25,1,22,0,2023-07-30T19:56:55Z,
+366,Reece James,181 lbs,1.83,23,England,Chelsea,24,Defender,16,2,1334,84,9,18,0,4,0,4,1,3,16,1,17,0,2023-07-30T19:56:58Z,6
+187,Jonny,152 lbs,1.75,29,Spain,Wolverhampton Wanderers,19,Defender,18,4,1344,76,12,19,0,3,1,3,0,2,9,1,20,0,2023-07-30T19:56:59Z,20
+570,Emerson,139 lbs,1.75,28,Italy,West Ham United,33,Defender,22,6,1398,65,13,15,0,1,0,2,0,4,11,1,28,0,2023-07-30T19:56:55Z,19
+370,Wesley Fofana,183 lbs,1.9,22,France,Chelsea,33,Defender,17,3,1439,86,13,25,0,2,0,4,0,3,8,1,24,0,2023-07-30T19:56:58Z,6
+223,Júnior Firpo,172 lbs,1.83,26,Spain,Leeds United,3,Defender,19,5,1451,77,23,8,0,2,1,6,1,1,2,1,32,0,2023-07-30T20:58:13Z,10
+216,Liam Cooper,161 lbs,1.8,31,Scotland,Leeds United,6,Defender,18,2,1527,86,12,10,0,0,0,5,0,2,10,1,32,0,2023-07-30T20:58:13Z,10
+351,Oliver Skipp,152 lbs,1.75,22,England,Tottenham Hotspur,4,Midfielder,23,5,1580,70,23,17,0,5,0,7,1,3,5,1,28,0,2023-07-30T19:56:58Z,18
+129,Lucas Digne,161 lbs,1.78,30,France,Aston Villa,27,Defender,28,10,1619,59,17,24,1,0,0,5,0,3,9,1,22,0,2023-07-30T19:56:57Z,2
+266,Orel Mangala,174 lbs,1.78,25,Belgium,Nottingham Forest,5,Midfielder,27,7,1643,62,22,23,0,2,0,3,1,3,9,1,24,0,2023-07-30T19:56:55Z,16
+83,Harvey Elliott,139 lbs,1.7,20,England,Liverpool,19,Midfielder,32,14,1717,55,12,25,0,8,0,2,2,9,33,1,19,0,2023-07-30T19:56:58Z,12
+391,Seamus Coleman,148 lbs,1.78,34,Republic of Ireland,Everton,23,Defender,23,3,1742,77,10,21,0,0,0,1,0,2,7,1,25,0,2023-07-30T19:56:56Z,8
+371,Mateo Kovacic,172 lbs,1.78,29,Croatia,Manchester City,8,Midfielder,27,10,1835,69,17,12,0,1,0,8,2,1,22,1,23,0,2023-07-30T19:56:54Z,13
+429,Christian Norgaard,170 lbs,1.88,29,Denmark,Brentford,6,Midfielder,22,1,1861,86,35,20,0,6,0,6,3,6,16,1,22,0,2023-07-30T19:56:58Z,4
+167,Ryan Christie,172 lbs,1.78,28,Scotland,AFC Bournemouth,10,Midfielder,32,10,1932,61,35,45,0,2,0,2,1,8,29,1,35,0,2023-07-30T19:56:55Z,
+542,Nathan Aké,163 lbs,1.8,28,Netherlands,Manchester City,6,Defender,26,4,1989,78,11,14,0,2,0,2,0,2,9,1,15,0,2023-07-30T19:56:54Z,13
+257,Neco Williams,159 lbs,1.83,22,Wales,Nottingham Forest,7,Defender,31,11,2035,67,31,27,0,7,0,7,0,7,25,1,41,0,2023-07-30T19:56:55Z,16
+246,Serge Aurier,168 lbs,1.75,30,Ivory Coast,Nottingham Forest,24,Defender,24,2,2073,87,17,19,0,2,0,2,0,3,9,1,31,0,2023-07-30T19:56:55Z,16
+521,Christian Eriksen,168 lbs,1.83,31,Denmark,Manchester United,14,Midfielder,28,3,2112,76,13,10,0,5,0,3,8,8,37,1,25,0,2023-07-30T19:56:59Z,14
+98,Issa Diop,203 lbs,1.93,26,France,Fulham,31,Defender,25,4,2154,87,15,8,0,1,0,2,0,2,3,1,26,0,2023-07-30T19:56:56Z,9
+128,Ashley Young,141 lbs,1.75,38,England,Everton,18,Defender,29,6,2161,76,22,28,0,8,0,7,0,3,14,1,27,0,2023-07-30T19:56:56Z,8
+18,Oleksandr Zinchenko,139 lbs,1.75,26,Ukraine,Arsenal,35,Midfielder,27,1,2203,83,6,11,0,4,0,3,2,7,28,1,27,0,2023-07-30T19:56:55Z,1
+513,Lisandro Martínez,170 lbs,1.75,25,Argentina,Manchester United,6,Defender,27,3,2231,84,20,10,0,5,0,6,0,1,9,1,32,0,2023-07-30T19:56:59Z,14
+99,Tosin Adarabioyo,174 lbs,1.96,25,England,Fulham,4,Defender,25,2,2242,91,16,5,0,7,0,4,0,4,15,1,37,0,2023-07-30T19:56:56Z,9
+346,Ivan Perisic,174 lbs,1.85,34,Croatia,Tottenham Hotspur,14,Midfielder,34,11,2243,67,30,8,0,5,0,6,8,6,28,1,44,0,2023-07-30T19:56:58Z,18
+320,Mohammed Elyounoussi,152 lbs,1.78,28,Norway,Southampton,24,Midfielder,33,6,2269,70,41,18,0,2,0,4,1,9,35,1,42,0,2023-07-30T20:58:14Z,17
+569,Craig Dawson,181 lbs,1.88,33,England,Wolverhampton Wanderers,15,Defender,25,0,2269,92,15,13,0,4,0,6,0,3,17,1,31,0,2023-07-30T19:56:59Z,20
+514,Diogo Dalot,168 lbs,1.83,24,Portugal,Manchester United,20,Defender,26,2,2284,89,21,3,0,6,0,6,2,8,22,1,33,0,2023-07-30T19:56:59Z,14
+475,Joël Veltman,163 lbs,1.83,31,Netherlands,Brighton & Hove Albion,34,Defender,31,6,2310,76,26,38,0,7,0,6,1,5,14,1,26,0,2023-07-30T19:56:56Z,5
+325,Romeo Lavia,,1.8,19,Belgium,Southampton,45,Midfielder,29,3,2343,82,27,48,0,2,0,9,0,2,11,1,47,0,2023-07-30T20:58:14Z,17
+36,Joel Ward,183 lbs,1.88,33,England,Crystal Palace,2,Defender,28,4,2398,87,29,11,0,1,0,6,0,2,7,1,35,0,2023-07-30T19:56:57Z,7
+251,Joe Worrall,139 lbs,1.93,26,England,Nottingham Forest,4,Defender,30,9,2408,81,27,4,0,2,0,6,0,2,7,1,44,0,2023-07-30T19:56:55Z,16
+230,Marc Roca,170 lbs,1.83,26,Spain,Leeds United,8,Midfielder,32,3,2429,77,39,29,0,5,0,7,2,10,34,1,59,0,2023-07-30T20:58:13Z,10
+231,Brenden Aaronson,152 lbs,1.78,22,USA,Leeds United,7,Midfielder,36,8,2489,70,15,55,0,1,0,2,3,10,41,1,57,0,2023-07-30T20:58:13Z,10
+408,Amadou Onana,168 lbs,1.93,21,Belgium,Everton,8,Midfielder,33,4,2619,80,43,49,0,4,0,9,2,7,37,1,37,0,2023-07-30T19:56:56Z,8
+202,Matheus Nunes,172 lbs,1.83,24,Portugal,Wolverhampton Wanderers,27,Midfielder,34,4,2690,78,37,49,0,3,1,2,1,9,27,1,38,0,2023-07-30T19:56:59Z,20
+300,Sean Longstaff,141 lbs,1.8,25,England,Newcastle United,36,Midfielder,33,5,2699,83,25,39,0,4,0,2,4,7,30,1,18,0,2023-07-30T19:56:57Z,15
+510,Luke Shaw,163 lbs,1.85,28,England,Manchester United,23,Defender,31,1,2703,88,45,27,0,9,0,8,3,3,13,1,34,0,2023-07-30T19:56:59Z,14
+96,Kenny Tete,157 lbs,1.8,27,Netherlands,Fulham,2,Defender,31,2,2736,89,39,54,0,10,0,8,5,5,13,1,35,0,2023-07-30T19:56:56Z,9
+312,Kyle Walker-Peters,137 lbs,1.73,26,England,Southampton,2,Defender,31,1,2834,92,23,41,0,4,0,4,0,5,14,1,54,0,2023-07-30T20:58:14Z,17
+476,Pervis Estupiñán,161 lbs,1.75,25,Ecuador,Brighton & Hove Albion,30,Defender,35,4,2834,82,42,26,0,5,0,4,5,4,29,1,38,0,2023-07-30T19:56:56Z,5
+140,John McGinn,150 lbs,1.78,28,Scotland,Aston Villa,7,Midfielder,34,4,2858,85,40,66,0,7,0,7,3,11,42,1,28,0,2023-07-30T19:56:57Z,2
+453,Wout Faes,183 lbs,1.88,25,Belgium,Leicester City,3,Defender,31,0,2946,96,22,17,2,3,1,5,2,5,15,1,47,0,2023-07-30T20:58:15Z,11
+37,Joachim Andersen,196 lbs,1.93,27,Denmark,Crystal Palace,16,Defender,32,0,2953,93,27,16,2,8,0,8,0,10,25,1,34,0,2023-07-30T19:56:57Z,7
+93,Tim Ream,174 lbs,1.83,35,USA,Fulham,13,Defender,33,0,3103,95,18,7,0,5,0,2,0,2,3,1,42,0,2023-07-30T19:56:56Z,9
+290,Dan Burn,192 lbs,1.98,31,England,Newcastle United,33,Defender,38,3,3306,88,34,4,0,3,0,6,0,4,20,1,29,0,2023-07-30T19:56:57Z,15
+131,Tyrone Mings,170 lbs,1.96,30,England,Aston Villa,5,Defender,35,0,3358,97,18,22,1,3,0,7,2,3,8,1,36,0,2023-07-30T19:56:57Z,2
+493,Moisés Caicedo,161 lbs,1.78,21,Ecuador,Brighton & Hove Albion,25,Midfielder,37,3,3360,92,66,55,0,0,0,10,1,7,28,1,41,0,2023-07-30T19:56:56Z,5
+288,Fabian Schär,183 lbs,1.85,31,Switzerland,Newcastle United,5,Defender,36,0,3414,96,21,28,1,3,0,7,3,12,54,1,26,0,2023-07-30T19:56:57Z,15
+474,Lewis Dunk,192 lbs,1.93,31,England,Brighton & Hove Albion,5,Defender,36,0,3477,98,16,27,1,3,0,4,0,3,22,1,44,0,2023-07-30T19:56:56Z,5
+39,Marc Guehi,181 lbs,1.83,23,England,Crystal Palace,6,Defender,37,0,3538,97,24,40,1,5,0,8,0,7,16,1,43,0,2023-07-30T19:56:57Z,7
+283,Kieran Trippier,157 lbs,1.78,32,England,Newcastle United,2,Defender,38,0,3554,95,46,29,1,10,0,5,7,2,15,1,29,0,2023-07-30T19:56:57Z,15
+392,James Tarkowski,179 lbs,1.85,30,England,Everton,2,Defender,38,0,3652,97,38,23,0,6,0,6,1,7,31,1,57,0,2023-07-30T19:56:56Z,8
+770,Diogo Monteiro,163 lbs,1.83,18,Portugal,Leeds United,34,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T20:58:13Z,10
+53,Kaden Rodney,,,18,England,Crystal Palace,78,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,7
+336,Brandon Austin,181 lbs,1.88,24,England,Tottenham Hotspur,40,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:58Z,18
+845,Sean Mcallister,146 lbs,1.73,20,Northern Ireland,Everton,46,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:56Z,8
+52,Jack Wells-Morrison,,,19,England,Crystal Palace,47,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,7
+594,Luke Plange,,1.78,20,England,Crystal Palace,48,Forward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,7
+692,Filip Marshall,192 lbs,1.96,20,England,Aston Villa,42,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,2
+760,Wanya Marcal-Madivadua,,1.8,20,Portugal,Leicester City,40,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T20:58:15Z,11
+448,Jannik Vestergaard,214 lbs,1.98,30,Denmark,Leicester City,23,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T20:58:15Z,11
+535,Shola Shoretire,152 lbs,1.7,19,England,Manchester United,47,Forward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:59Z,14
+892,Alfie Gilchrist,,1.83,19,England,Chelsea,46,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:58Z,6
+595,Nicolas Pépé,161 lbs,1.83,28,Ivory Coast,Arsenal,19,Forward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,1
+472,Thomas McGill,174 lbs,1.85,23,Canada,Brighton & Hove Albion,38,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:56Z,5
+503,Tom Heaton,185 lbs,1.88,37,England,Manchester United,22,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:59Z,14
+385,Andy Lonergan,192 lbs,1.93,39,England,Everton,31,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:56Z,8
+58,John-Kymani Gordon,,,20,England,Crystal Palace,45,Forward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,7
+164,Ben Greenwood,152 lbs,1.7,20,England,AFC Bournemouth,43,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,
+361,Marcus Bettinelli,181 lbs,1.93,31,England,Chelsea,13,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:58Z,6
+769,Jeremiah Mullen,,,19,Scotland,Leeds United,62,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T20:58:13Z,10
+478,Ed Turns,,,20,Wales,Brighton & Hove Albion,43,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:56Z,5
+103,Stefan Parkes,,,19,England,Fulham,39,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:56Z,9
+444,Alex Smithies,183 lbs,1.85,33,England,Leicester City,12,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T20:58:15Z,11
+596,Rodrigo Muniz,168 lbs,1.75,21,Uruguay,Fulham,19,Forward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:56Z,9
+661,Sonny Perkins,,1.78,19,England,Leeds United,16,Forward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T20:58:13Z,10
+889,Imari Samuels,,,20,England,Brighton & Hove Albion,66,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:56Z,5
+234,Archie Gray,,,17,England,Leeds United,63,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T20:58:13Z,10
+575,Harrison Ashby,,,21,Scotland,Newcastle United,30,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,15
+515,Brandon Williams,139 lbs,1.7,22,England,Manchester United,33,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:59Z,14
+59,Adrián,174 lbs,1.9,36,Spain,Liverpool,13,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:58Z,12
+185,Matija Sarkic,,1.96,26,Montenegro,Wolverhampton Wanderers,13,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:59Z,20
+777,George Wickens,,1.83,21,England,Fulham,40,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:56Z,9
+213,Kristoffer Klaesson,168 lbs,1.88,22,Norway,Leeds United,13,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T20:58:13Z,10
+612,Nikola Vlasic,159 lbs,1.78,25,Croatia,West Ham United,,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,19
+183,Dominic Sadi,141 lbs,1.75,19,England,AFC Bournemouth,49,Forward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,
+605,Jean-Philippe Gbamin,183 lbs,1.85,27,Ivory Coast,Everton,25,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:56Z,8
+537,Scott Carson,185 lbs,1.88,37,England,Manchester City,33,Goalkeeper,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:54Z,13
+724,Euan Pollock,,1.73,20,England,AFC Bournemouth,41,Forward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,
+780,Dakota Ochsenham,,,19,England,Brentford,,Forward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:58Z,4
+270,Oliver Hammond,,,20,Wales,Nottingham Forest,41,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,16
+722,Sebastian Revan,,1.8,20,England,Aston Villa,56,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,2
+628,Sammy Braybrooke,,,19,England,Leicester City,44,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T20:58:15Z,11
+425,Charles Goode,194 lbs,1.96,27,England,Brentford,4,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:58Z,4
+255,Loïc Mbe Soh,179 lbs,1.85,22,France,Nottingham Forest,6,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,16
+687,Ehor Yarmolyuk,159 lbs,1.8,19,Ukraine,Brentford,,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:58Z,4
+625,Matej Kovar,170 lbs,1.83,23,Czech Republic,Manchester United,40,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:59Z,14
+282,Loris Karius,192 lbs,1.88,30,Germany,Newcastle United,18,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,15
+690,Rhys Bennett,161 lbs,1.9,19,England,Manchester United,66,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:59Z,14
+888,Matthew Dibley-Dias,,,19,England,Fulham,49,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:56Z,9
+622,Tim Iroegbunam,,,20,England,Aston Villa,47,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,2
+642,Nathan Bishop,159 lbs,1.85,23,England,Manchester United,30,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:59Z,14
+672,Daniel Adu-Addei,,1.78,18,England,AFC Bournemouth,51,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,
+638,Joe Wormleighton,,,19,England,Leicester City,60,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T20:58:15Z,11
+693,Kadan Young,,1.75,17,England,Aston Villa,72,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,2
+794,Tayo Adaramola,,,19,,Crystal Palace,38,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,7
+280,Mark Gillespie,183 lbs,1.93,31,England,Newcastle United,29,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,15
+624,André Gomes,183 lbs,1.88,30,Portugal,Everton,21,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:56Z,8
+307,Wilfredo Caballero,179 lbs,1.85,41,Argentina,Southampton,13,Goalkeeper,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T20:58:14Z,17
+2,Karl Hein,190 lbs,1.93,21,Estonia,Arsenal,31,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,1
+162,James Hill,161 lbs,1.83,21,England,AFC Bournemouth,23,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,
+617,Callum Hudson-Odoi,168 lbs,1.83,22,England,Chelsea,,Forward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:58Z,6
+557,Ben Knight,132 lbs,1.7,21,England,Manchester City,96,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:54Z,13
+51,Killian Phillips,,,21,,Crystal Palace,34,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,7
+614,Steven Alzate,163 lbs,1.8,24,Colombia,Brighton & Hove Albion,,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:56Z,5
+124,Martial Godo,,,20,England,Fulham,47,Forward,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:56Z,9
+680,Alfie Devine,163 lbs,1.78,18,England,Tottenham Hotspur,45,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:58Z,18
+600,Luke Cundle,,,21,England,Wolverhampton Wanderers,39,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:59Z,20
+731,Joseph Anang,159 lbs,1.9,23,England,West Ham United,49,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,19
+639,Cameron Plain,,,21,England,AFC Bournemouth,45,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,
+562,Darren Randolph,214 lbs,1.88,36,Republic of Ireland,AFC Bournemouth,12,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,
+784,Marc Jurado,,1.78,19,Spain,Manchester United,63,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:59Z,14
+417,Thomas Strakosha,172 lbs,1.85,28,Albania,Brentford,22,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:58Z,4
+285,Paul Dummett,181 lbs,1.83,31,Wales,Newcastle United,3,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,15
+694,Bashir Humphreys,172 lbs,1.88,20,England,Chelsea,42,Defender,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:58Z,6
+23,Amario Cozier-Duberry,,,18,England,Arsenal,85,Midfielder,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,1
+3,Matt Turner,183 lbs,1.9,29,USA,Arsenal,30,Goalkeeper,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,1
+583,Conor Coventry,141 lbs,1.78,23,Republic of Ireland,West Ham United,32,Midfielder,1,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,19
+29,Marquinhos,185 lbs,1.75,20,Brazil,Arsenal,27,Forward,1,1,3,4,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,1
+287,Emil Krafth,183 lbs,1.83,28,Sweden,Newcastle United,17,Defender,1,1,4,5,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,15
+647,David Ozoh,,,18,England,Crystal Palace,77,Midfielder,1,1,5,6,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,7
+716,Jack Hinshelwood,,,18,England,Brighton & Hove Albion,71,Midfielder,1,1,7,8,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:56Z,5
+353,Harvey White,130 lbs,1.7,21,England,Tottenham Hotspur,42,Midfielder,1,1,7,8,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:58Z,18
+598,Tyrese Francois,130 lbs,1.73,23,Australia,Fulham,35,Midfielder,1,1,8,9,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:56Z,9
+601,Alex Mighten,,,21,England,Nottingham Forest,17,Forward,1,1,11,12,0,1,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,16
+828,Samuel Amo-Ameyaw,,,17,England,Southampton,75,Forward,1,1,11,12,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T20:58:14Z,17
+708,Mislav Orsic,150 lbs,1.78,30,Croatia,Southampton,11,Forward,1,1,11,12,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T20:58:14Z,17
+84,Bobby Clark,,1.78,18,England,Liverpool,42,Midfielder,1,1,12,13,1,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:58Z,12
+233,Darko Gyabi,,1.96,19,England,Leeds United,18,Midfielder,1,1,12,13,0,1,0,0,0,0,0,0,1,0,0,0,2023-07-30T20:58:13Z,10
+169,Emiliano Marcondes,163 lbs,1.83,28,Denmark,AFC Bournemouth,,Midfielder,1,1,13,14,0,1,0,0,0,0,0,0,0,0,1,0,2023-07-30T19:56:55Z,
+494,Cameron Peupion,168 lbs,1.75,20,Australia,Brighton & Hove Albion,51,Midfielder,1,1,14,15,0,0,0,0,0,0,0,0,1,0,2,0,2023-07-30T19:56:56Z,5
+778,Kamari Doyle,,,17,England,Southampton,65,Midfielder,1,1,14,15,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T20:58:14Z,17
+632,Kobbie Mainoo,,1.75,18,England,Manchester United,73,Midfielder,1,1,15,16,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:59Z,14
+495,Andrew Moran,161 lbs,1.78,19,,Brighton & Hove Albion,49,Midfielder,1,1,15,16,0,0,0,0,0,0,0,0,0,0,1,0,2023-07-30T19:56:56Z,5
+179,Jamal Lowe,172 lbs,1.83,29,Jamaica,AFC Bournemouth,18,Forward,2,2,19,11,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,
+771,Lewis Miley,,,17,England,Newcastle United,81,Midfielder,1,1,19,20,0,0,0,0,0,0,0,0,1,0,0,0,2023-07-30T19:56:57Z,15
+764,Máximo Perrone,150 lbs,1.78,20,Argentina,Manchester City,32,Midfielder,1,1,22,23,0,0,0,1,0,0,0,0,0,0,1,0,2023-07-30T19:56:54Z,13
+256,Giulian Biancone,,1.88,23,France,Nottingham Forest,2,Defender,2,2,25,14,0,0,0,0,0,0,0,0,0,0,1,0,2023-07-30T19:56:55Z,16
+345,Djed Spence,,1.85,22,England,Tottenham Hotspur,24,Defender,4,4,26,8,0,0,0,0,0,0,0,0,1,0,0,0,2023-07-30T19:56:58Z,18
+104,Luke Harris,,1.78,18,Wales,Fulham,38,Midfielder,3,3,28,10,1,0,0,0,0,0,0,0,0,0,1,0,2023-07-30T19:56:56Z,9
+465,Lewis Brunt,,,22,England,Leicester City,34,Midfielder,1,1,29,30,0,1,0,0,0,0,0,0,0,0,1,0,2023-07-30T20:58:15Z,11
+610,Mads Bech Sörensen,203 lbs,1.88,24,Denmark,Brentford,29,Defender,4,4,32,9,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:58Z,4
+653,Ben Doak,,,17,Scotland,Liverpool,50,Forward,2,2,33,18,0,1,0,0,0,0,0,0,0,0,1,0,2023-07-30T19:56:58Z,12
+666,Thomas Cannon,,,20,England,Everton,47,Forward,2,2,34,18,0,2,0,0,0,0,0,1,1,0,1,0,2023-07-30T19:56:56Z,8
+643,Mateo Joseph,,,19,England,Leeds United,49,Forward,3,3,37,13,0,0,0,0,0,0,0,1,1,0,0,0,2023-07-30T20:58:13Z,10
+333,Dominic Ballard,,,18,England,Southampton,53,Forward,2,2,40,21,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T20:58:14Z,17
+316,Valentino Livramento,,1.83,20,England,Southampton,21,Defender,2,2,42,22,0,2,0,0,0,0,0,0,0,0,0,0,2023-07-30T20:58:14Z,17
+210,Sasa Kalajdzic,203 lbs,2.01,26,Austria,Wolverhampton Wanderers,18,Forward,1,0,45,46,0,1,0,0,0,0,0,0,1,0,0,0,2023-07-30T19:56:59Z,20
+50,Malcolm Ebiowei,,1.85,19,England,Crystal Palace,23,Midfielder,3,3,46,16,0,1,0,0,0,0,0,0,0,0,1,0,2023-07-30T19:56:57Z,7
+286,Javier Manquillo,168 lbs,1.78,29,Spain,Newcastle United,19,Defender,4,4,51,14,0,0,0,0,0,0,0,0,0,0,1,0,2023-07-30T19:56:57Z,15
+593,Divin Mubama,,,18,England,West Ham United,45,Forward,3,3,52,18,2,1,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:55Z,19
+606,Dele Alli,168 lbs,1.88,27,England,Everton,,Midfielder,2,2,58,30,0,1,0,0,0,0,0,0,0,0,1,0,2023-07-30T19:56:56Z,8
+295,Matt Ritchie,168 lbs,1.73,33,Scotland,Newcastle United,11,Midfielder,7,7,61,11,0,0,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,15
+71,Nathaniel Phillips,183 lbs,1.9,26,England,Liverpool,47,Defender,2,1,71,37,1,0,0,0,0,0,0,0,1,0,1,0,2023-07-30T19:56:58Z,12
+151,Cameron Archer,159 lbs,1.8,21,England,Aston Villa,35,Forward,6,6,72,13,2,1,0,0,0,0,0,0,0,0,0,0,2023-07-30T19:56:57Z,2
+762,Yasin Ayari,150 lbs,1.73,19,Sweden,Brighton & Hove Albion,26,Midfielder,3,2,73,25,0,3,0,1,0,0,0,0,1,0,2,0,2023-07-30T19:56:56Z,5
+526,Facundo Pellistri,150 lbs,1.75,21,Uruguay,Manchester United,28,Midfielder,4,4,84,22,1,2,0,0,0,0,0,0,0,0,1,0,2023-07-30T19:56:59Z,14
+45,Jairo Riedewald,172 lbs,1.83,26,Netherlands,Crystal Palace,44,Midfielder,6,6,91,16,1,1,0,0,0,0,0,0,1,0,0,0,2023-07-30T19:56:57Z,7
+61,Caoimhin Kelleher,161 lbs,1.88,24,Republic of Ireland,Liverpool,62,Goalkeeper,1,0,98,99,0,0,0,,0,0,0,0,0,0,4,11,2023-07-30T19:56:58Z,12
+597,Jay Stansfield,,,20,England,Fulham,65,Forward,3,2,104,36,1,1,0,0,0,0,0,0,1,0,2,0,2023-07-30T19:56:56Z,9
+440,Sergi Canós,163 lbs,1.78,26,Spain,Brentford,7,Forward,5,5,107,22,2,3,0,1,0,0,0,0,1,0,1,0,2023-07-30T19:56:58Z,4
+15,Mohamed Elneny,159 lbs,1.78,31,Egypt,Arsenal,25,Midfielder,5,4,134,35,1,1,0,0,0,0,0,0,0,0,2,0,2023-07-30T19:56:55Z,1
+733,Naouirou Ahamada,161 lbs,1.83,21,France,Crystal Palace,29,Midfielder,8,8,135,18,3,0,0,0,0,1,0,0,3,0,2,0,2023-07-30T19:56:57Z,7
+344,Japhet Tanganga,168 lbs,1.83,24,England,Tottenham Hotspur,25,Defender,4,2,156,40,3,3,0,0,0,0,0,0,0,0,5,0,2023-07-30T19:56:58Z,18
+359,Bryan Gil,130 lbs,1.75,22,Spain,Tottenham Hotspur,11,Forward,4,2,161,41,2,2,0,0,0,1,1,1,2,0,1,0,2023-07-30T19:56:58Z,18
+505,Martin Dúbravka,183 lbs,1.9,34,Slovakia,Newcastle United,1,Goalkeeper,2,1,164,83,0,0,0,,0,0,0,0,0,0,0,20,2023-07-30T19:56:57Z,15
+317,Juan Larios,,,19,Spain,Southampton,28,Defender,5,3,168,35,1,0,0,0,0,0,0,0,0,0,2,0,2023-07-30T20:58:14Z,17
+95,Kevin Mbabu,183 lbs,1.83,28,Switzerland,Fulham,27,Defender,6,5,178,31,4,0,0,0,0,1,1,0,0,0,7,0,2023-07-30T19:56:56Z,9
+166,David Brooks,137 lbs,1.73,26,Wales,AFC Bournemouth,7,Midfielder,6,4,191,33,3,1,0,0,0,1,0,1,5,0,4,0,2023-07-30T19:56:55Z,
+33,Joseph Whitworth,,,19,England,Crystal Palace,41,Goalkeeper,2,0,194,98,0,0,0,,0,0,0,0,0,0,5,21,2023-07-30T19:56:57Z,7
+524,Donny van de Beek,168 lbs,1.83,26,Netherlands,Manchester United,34,Midfielder,7,5,195,29,4,2,0,2,0,0,0,0,1,0,3,0,2023-07-30T19:56:59Z,14
+91,Marek Rodak,179 lbs,1.93,26,Slovakia,Fulham,1,Goalkeeper,2,0,196,99,0,0,0,,0,0,0,0,0,0,2,14,2023-07-30T19:56:56Z,9
+737,Jhon Durán,161 lbs,1.85,19,Colombia,Aston Villa,22,Forward,12,12,197,17,8,3,0,0,0,1,0,1,6,0,3,0,2023-07-30T19:56:57Z,2
+743,Daniel Bentley,159 lbs,1.88,30,England,Wolverhampton Wanderers,25,Goalkeeper,2,0,198,100,0,1,0,,0,0,0,0,0,0,3,43,2023-07-30T19:56:59Z,20
+704,Gustavo Scarpa,161 lbs,1.75,29,Brazil,Nottingham Forest,31,Midfielder,6,4,200,34,4,8,0,0,0,1,0,1,7,0,2,0,2023-07-30T19:56:55Z,16
+200,Joseph Hodge,,1.73,20,,Wolverhampton Wanderers,59,Midfielder,6,5,200,34,2,1,0,2,0,1,0,0,2,0,6,0,2023-07-30T19:56:59Z,20
+19,Emile Smith Rowe,172 lbs,1.83,23,England,Arsenal,10,Midfielder,12,12,220,19,1,1,0,0,0,0,2,1,4,0,5,0,2023-07-30T19:56:55Z,1
+133,Diego Carlos,172 lbs,1.85,30,Brazil,Aston Villa,3,Defender,3,1,221,75,2,0,0,1,0,0,0,0,5,0,2,0,2023-07-30T19:56:57Z,2
+284,Jamaal Lascelles,194 lbs,1.88,29,England,Newcastle United,6,Defender,7,5,250,37,6,2,0,0,0,4,0,0,2,0,5,0,2023-07-30T19:56:57Z,15
+4,Cédric Soares,148 lbs,1.73,31,Portugal,Arsenal,17,Defender,8,6,259,33,2,2,0,2,0,0,0,0,2,0,2,0,2023-07-30T19:56:55Z,1
+354,Pape Matar Sarr,152 lbs,1.85,20,Senegal,Tottenham Hotspur,29,Midfielder,11,9,265,25,4,3,0,0,0,1,1,0,2,0,10,0,2023-07-30T19:56:58Z,18
+538,Stefan Ortega,192 lbs,1.85,30,Germany,Manchester City,18,Goalkeeper,3,0,283,95,0,0,0,0,0,0,0,0,0,0,1,38,2023-07-30T19:56:54Z,13
+241,Wayne Hennessey,196 lbs,1.98,36,Wales,Nottingham Forest,13,Goalkeeper,4,1,285,96,0,1,0,0,0,0,0,0,0,0,5,41,2023-07-30T19:56:55Z,16
+127,Robin Olsen,194 lbs,1.98,33,Sweden,Aston Villa,25,Goalkeeper,4,2,304,77,0,0,0,0,0,0,0,0,0,0,8,16,2023-07-30T19:56:57Z,2
+589,Maxwel Cornet,150 lbs,1.78,26,Ivory Coast,West Ham United,17,Forward,14,12,308,23,2,2,0,2,0,0,0,2,9,0,5,0,2023-07-30T19:56:55Z,19
+720,Georginio Rutter,183 lbs,1.83,21,France,Leeds United,24,Forward,11,10,318,30,5,6,0,1,0,0,1,0,4,0,9,0,2023-07-30T20:58:13Z,10
+739,Illia Zabarnyi,174 lbs,1.88,20,Ukraine,AFC Bournemouth,27,Defender,5,2,331,67,1,2,0,1,0,0,0,0,0,0,5,0,2023-07-30T19:56:55Z,
+564,Alphonse Areola,205 lbs,1.96,30,France,West Ham United,23,Goalkeeper,5,3,333,68,1,0,0,,0,0,0,0,0,0,7,26,2023-07-30T19:56:55Z,19
+479,Jan Paul van Hecke,172 lbs,1.88,23,Netherlands,Brighton & Hove Albion,29,Defender,8,5,338,43,6,4,0,1,0,2,0,0,2,0,6,0,2023-07-30T19:56:56Z,5
+553,Kalvin Phillips,159 lbs,1.78,27,England,Manchester City,4,Midfielder,12,10,343,30,10,2,0,1,0,1,0,0,6,0,3,0,2023-07-30T19:56:54Z,13
+296,Ryan Fraser,152 lbs,1.63,29,Scotland,Newcastle United,21,Midfielder,8,5,343,44,3,10,0,3,0,1,0,1,6,0,3,0,2023-07-30T19:56:57Z,15
+442,Keane Lewis-Potter,148 lbs,1.7,22,England,Brentford,23,Forward,10,7,361,37,1,4,0,0,0,0,1,2,8,0,4,0,2023-07-30T19:56:58Z,4
+556,Sergio Gómez,150 lbs,1.7,22,Spain,Manchester City,21,Midfielder,12,10,385,33,1,2,0,0,0,0,1,0,7,0,6,0,2023-07-30T19:56:54Z,13
+752,James Bree,161 lbs,1.73,25,England,Southampton,14,Defender,5,1,389,79,1,0,0,0,0,1,0,1,1,0,11,0,2023-07-30T20:58:14Z,17
+212,Joel Robles,172 lbs,1.96,33,Spain,Leeds United,22,Goalkeeper,4,0,390,99,0,0,0,,0,1,0,0,0,0,11,52,2023-07-30T20:58:13Z,10
+381,Carney Chukwuemeka,170 lbs,1.88,19,England,Chelsea,30,Midfielder,14,12,409,30,2,5,0,0,0,0,0,1,5,0,7,0,2023-07-30T19:56:58Z,6
+130,Calum Chambers,146 lbs,1.83,28,England,Aston Villa,16,Defender,14,12,417,31,7,2,0,3,0,2,0,0,2,0,4,0,2023-07-30T19:56:57Z,2
+558,Cole Palmer,161 lbs,1.83,21,England,Manchester City,80,Midfielder,14,12,418,31,1,6,0,0,0,1,2,3,11,0,4,0,2023-07-30T19:56:54Z,13
+741,Hamed Junior Traore,170 lbs,1.83,23,Ivory Coast,AFC Bournemouth,22,Midfielder,7,2,448,65,4,4,0,1,0,0,0,0,5,0,7,0,2023-07-30T19:56:55Z,
+754,Paul Onuachu,214 lbs,2.01,29,Nigeria,Southampton,12,Forward,11,7,455,42,14,6,0,0,0,0,0,5,9,0,6,0,2023-07-30T20:58:14Z,17
+199,Boubacar Traore,148 lbs,1.83,21,Mali,Wolverhampton Wanderers,,Midfielder,10,6,459,47,10,2,0,3,0,2,1,0,3,0,9,0,2023-07-30T19:56:59Z,20
+735,Sasa Lukic,168 lbs,1.83,26,Serbia,Fulham,28,Midfielder,12,8,470,40,13,10,0,0,0,1,0,1,5,0,10,0,2023-07-30T19:56:56Z,9
+534,Anthony Elanga,152 lbs,1.78,21,Sweden,Nottingham Forest,,Forward,16,11,474,31,3,7,0,0,0,0,1,3,9,0,2,0,2023-07-30T19:56:55Z,16
+40,Chris Richards,192 lbs,1.88,23,USA,Crystal Palace,26,Defender,9,5,494,56,2,1,0,0,0,0,0,0,4,0,10,0,2023-07-30T19:56:57Z,7
+299,Elliot Anderson,,1.78,20,Scotland,Newcastle United,32,Midfielder,22,19,515,24,6,10,0,2,0,0,1,4,11,0,6,0,2023-07-30T19:56:57Z,15
+226,Adam Forshaw,157 lbs,1.75,31,England,Leeds United,4,Midfielder,12,7,530,45,6,5,0,0,0,0,0,0,1,0,13,0,2023-07-30T20:58:13Z,10
+477,Tariq Lamptey,119 lbs,1.63,22,Ghana,Brighton & Hove Albion,2,Defender,20,17,545,28,6,14,0,0,0,1,0,0,6,0,7,0,2023-07-30T19:56:56Z,5
+395,Mason Holgate,139 lbs,1.83,26,England,Everton,4,Defender,8,3,545,69,9,4,0,2,1,2,0,0,3,0,10,0,2023-07-30T19:56:56Z,8
+489,Billy Gilmour,130 lbs,1.65,22,Scotland,Brighton & Hove Albion,27,Midfielder,14,7,559,41,8,3,0,3,0,1,1,1,6,0,7,0,2023-07-30T19:56:56Z,5
+156,Ryan Fredericks,161 lbs,1.8,30,England,AFC Bournemouth,2,Defender,12,7,582,50,3,1,0,0,0,1,0,0,0,0,12,0,2023-07-30T19:56:55Z,
+308,Alex McCarthy,172 lbs,1.93,33,England,Southampton,1,Goalkeeper,6,0,586,99,0,1,0,,0,0,0,0,0,0,16,93,2023-07-30T20:58:14Z,17
+294,Jonjo Shelvey,174 lbs,1.83,31,England,Nottingham Forest,6,Midfielder,11,5,620,57,10,1,0,1,0,2,0,0,5,0,11,0,2023-07-30T19:56:55Z,16
+332,Samuel Edozie,,,20,England,Southampton,23,Forward,17,12,636,38,0,22,0,1,0,0,0,3,7,0,7,0,2023-07-30T20:58:14Z,17
+646,Lewis Hall,161 lbs,1.78,18,England,Chelsea,67,Midfielder,9,1,677,76,3,11,0,1,0,1,0,4,10,0,11,0,2023-07-30T19:56:58Z,6
+289,Matt Targett,152 lbs,1.83,27,England,Newcastle United,13,Defender,17,11,686,41,10,3,0,0,0,1,0,0,1,0,5,0,2023-07-30T19:56:57Z,15
+435,Shandon Baptiste,148 lbs,1.75,25,Grenada,Brentford,26,Midfielder,23,19,710,32,10,12,0,2,1,2,1,1,4,0,6,0,2023-07-30T19:56:58Z,4
+727,Mykhailo Mudryk,132 lbs,1.75,22,Ukraine,Chelsea,15,Midfielder,15,8,719,49,7,12,0,1,0,1,2,5,14,0,10,0,2023-07-30T19:56:58Z,6
+374,Hakim Ziyech,141 lbs,1.8,30,Morocco,Chelsea,22,Midfielder,18,12,734,42,12,14,0,4,0,1,3,2,15,0,7,0,2023-07-30T19:56:58Z,6
+247,Willy Boly,203 lbs,1.96,32,France,Nottingham Forest,30,Defender,11,2,735,68,5,5,0,0,0,2,2,1,2,0,10,0,2023-07-30T19:56:55Z,16
+8,Takehiro Tomiyasu,152 lbs,1.88,24,Japan,Arsenal,18,Defender,21,15,765,37,6,3,0,1,0,2,1,0,2,0,11,0,2023-07-30T19:56:55Z,1
+324,Moussa Djenepo,141 lbs,1.78,25,Mali,Southampton,19,Midfielder,16,9,769,49,9,19,0,1,0,1,2,2,3,0,12,0,2023-07-30T20:58:14Z,17
+20,Albert Sambi Lokonga,148 lbs,1.73,23,Belgium,Arsenal,23,Midfielder,15,7,790,54,8,17,0,3,0,2,0,1,2,0,6,0,2023-07-30T19:56:55Z,1
+714,Kevin Schade,161 lbs,1.83,21,Germany,Brentford,9,Forward,18,11,793,45,13,8,0,1,0,2,1,4,12,0,6,0,2023-07-30T19:56:58Z,4
+423,Kristoffer Ajer,203 lbs,1.98,25,Norway,Brentford,20,Defender,9,0,797,90,5,8,0,1,0,0,0,0,1,0,13,0,2023-07-30T19:56:58Z,4
+584,Flynn Downes,152 lbs,1.73,24,England,West Ham United,12,Midfielder,21,14,823,40,8,12,0,1,0,2,0,1,3,0,14,0,2023-07-30T19:56:55Z,19
+69,Konstantinos Tsimikas,170 lbs,1.78,27,Greece,Liverpool,21,Defender,20,11,842,43,13,9,0,2,0,3,4,2,6,0,10,0,2023-07-30T19:56:58Z,12
+509,Harry Maguire,196 lbs,1.93,30,England,Manchester United,5,Defender,16,8,845,54,8,4,0,1,0,4,0,0,3,0,7,0,2023-07-30T19:56:59Z,14
+396,Ben Godfrey,161 lbs,1.83,25,England,Everton,22,Defender,13,3,854,67,9,5,0,1,0,2,1,0,5,0,18,0,2023-07-30T19:56:56Z,8
+32,Sam Johnstone,185 lbs,1.93,30,England,Crystal Palace,21,Goalkeeper,9,0,863,97,1,0,0,,0,1,0,0,0,0,9,69,2023-07-30T19:56:57Z,7
+318,Ibrahima Diallo,150 lbs,1.78,22,Guinea,Southampton,27,Forward,18,7,884,50,18,7,0,0,0,4,0,0,6,0,18,0,2023-07-30T20:58:14Z,17
+407,James Garner,172 lbs,1.85,22,England,Everton,37,Midfielder,16,9,890,57,15,10,0,2,0,3,1,3,9,0,13,0,2023-07-30T19:56:56Z,8
+5,Kieran Tierney,152 lbs,1.78,26,Scotland,Arsenal,3,Defender,27,21,918,35,5,9,0,4,0,0,1,2,7,0,10,0,2023-07-30T19:56:55Z,1
+205,Raúl Jiménez,168 lbs,1.9,32,Mexico,Fulham,,Forward,15,7,925,63,14,14,0,0,0,0,1,8,19,0,18,0,2023-07-30T19:56:56Z,9
+434,Frank Onyeka,152 lbs,1.83,25,Nigeria,Brentford,15,Midfielder,21,13,933,45,14,26,0,1,0,0,2,4,9,0,9,0,2023-07-30T19:56:58Z,4
+342,Davinson Sánchez,179 lbs,1.88,27,Colombia,Tottenham Hotspur,6,Defender,18,10,936,53,6,4,0,1,0,1,0,0,4,0,17,0,2023-07-30T19:56:58Z,18
+730,Victor Kristiansen,,1.8,20,Denmark,Leicester City,16,Defender,12,1,940,79,17,9,0,3,0,2,1,0,3,0,19,0,2023-07-30T20:58:15Z,11
+566,Ben Johnson,148 lbs,1.75,23,England,West Ham United,2,Defender,17,8,944,57,3,5,0,1,0,0,0,1,2,0,13,0,2023-07-30T19:56:55Z,19
+548,Rico Lewis,,1.7,18,England,Manchester City,82,Defender,14,4,952,69,10,18,0,1,0,1,0,2,5,0,8,0,2023-07-30T19:56:54Z,13
+209,Pedro Neto,137 lbs,1.73,23,Portugal,Wolverhampton Wanderers,7,Forward,18,5,1009,57,7,15,0,0,0,2,0,2,17,0,14,0,2023-07-30T19:56:59Z,20
+245,Steve Cook,181 lbs,1.85,32,England,Nottingham Forest,3,Defender,12,1,1011,85,4,2,0,1,0,4,0,0,3,0,21,0,2023-07-30T19:56:55Z,16
+142,Leander Dendoncker,183 lbs,1.88,28,Belgium,Aston Villa,32,Defender,24,15,1014,43,1,1,0,1,0,0,0,2,5,0,10,0,2023-07-30T19:56:57Z,2
+248,Harry Toffolo,157 lbs,1.83,27,England,Nottingham Forest,15,Defender,19,10,1038,56,9,5,0,2,0,2,0,2,7,0,17,0,2023-07-30T19:56:55Z,16
+543,Aymeric Laporte,190 lbs,1.88,29,Spain,Manchester City,14,Defender,12,1,1050,89,5,7,0,1,0,0,0,1,9,0,10,0,2023-07-30T19:56:54Z,13
+74,James Milner,152 lbs,1.75,37,England,Brighton & Hove Albion,,Midfielder,31,24,1052,35,16,15,0,3,0,2,1,1,7,0,12,0,2023-07-30T19:56:56Z,5
+759,Harry Souttar,174 lbs,1.98,24,Australia,Leicester City,15,Defender,12,1,1059,89,5,5,1,5,0,2,1,2,9,0,17,0,2023-07-30T20:58:15Z,11
+173,Joe Rothwell,170 lbs,1.85,28,England,AFC Bournemouth,14,Midfielder,20,8,1080,55,16,3,0,1,0,2,1,1,3,0,15,0,2023-07-30T19:56:55Z,
+437,Mikkel Damsgaard,146 lbs,1.8,23,Denmark,Brentford,24,Midfielder,26,17,1087,43,12,11,0,5,0,4,0,5,11,0,12,0,2023-07-30T19:56:58Z,4
+349,Yves Bissouma,174 lbs,1.83,26,Mali,Tottenham Hotspur,38,Midfielder,23,13,1105,49,17,10,0,3,0,6,0,0,6,0,20,0,2023-07-30T19:56:58Z,18
+446,Jonny Evans,170 lbs,1.88,35,Northern Ireland,Manchester United,27,Defender,13,1,1117,87,9,7,0,1,0,1,0,1,1,0,27,0,2023-07-30T19:56:59Z,14
+446,Jonny Evans,170 lbs,1.88,35,Northern Ireland,Leicester City,6,Defender,13,1,1117,87,9,7,0,1,0,1,0,1,1,0,27,0,2023-07-30T20:58:15Z,11
+452,Luke Thomas,148 lbs,1.7,22,England,Leicester City,33,Defender,17,6,1145,68,11,7,1,1,0,3,0,1,4,0,17,0,2023-07-30T20:58:15Z,11
+445,Daniel Iversen,174 lbs,1.93,26,Denmark,Leicester City,31,Goalkeeper,12,0,1150,97,0,0,1,,0,0,0,1,1,0,21,188,2023-07-30T20:58:15Z,11
+420,Mathias Jorgensen,172 lbs,1.9,33,Denmark,Brentford,13,Defender,18,7,1206,68,9,4,1,1,0,2,0,1,5,0,13,0,2023-07-30T19:56:58Z,4
+427,Mads Roerslev,170 lbs,1.83,24,Denmark,Brentford,30,Defender,20,8,1226,62,4,3,0,0,0,0,0,0,3,0,11,0,2023-07-30T19:56:58Z,4
+250,Moussa Niakhate,181 lbs,1.9,27,Senegal,Nottingham Forest,19,Defender,14,0,1244,90,11,6,0,0,0,1,0,2,5,0,22,0,2023-07-30T19:56:55Z,16
+335,Fraser Forster,203 lbs,2.01,35,England,Tottenham Hotspur,20,Goalkeeper,14,1,1309,95,0,2,0,,0,1,0,0,0,0,24,124,2023-07-30T19:56:58Z,18
+455,James Justin,174 lbs,1.83,25,England,Leicester City,2,Defender,14,0,1315,95,8,29,0,2,0,0,0,0,5,0,24,0,2023-07-30T20:58:15Z,11
+481,Levi Colwill,183 lbs,1.88,20,England,Chelsea,,Defender,17,4,1329,79,8,10,0,5,0,1,2,0,8,0,20,0,2023-07-30T19:56:58Z,6
+567,Angelo Ogbonna,190 lbs,1.9,35,Italy,West Ham United,21,Defender,16,3,1329,84,2,4,0,0,0,0,0,0,3,0,19,0,2023-07-30T19:56:55Z,19
+76,Thiago,152 lbs,1.75,32,Spain,Liverpool,6,Midfielder,18,4,1334,75,18,25,0,3,0,2,1,1,8,0,21,0,2023-07-30T19:56:58Z,12
+703,Maximilian Wöber,185 lbs,1.88,25,Austria,Leeds United,39,Defender,16,2,1360,86,15,1,0,3,0,3,0,2,9,0,23,0,2023-07-30T20:58:13Z,10
+400,Nathan Patterson,183 lbs,1.88,21,Scotland,Everton,3,Defender,19,5,1365,73,14,14,0,1,0,3,0,1,8,0,22,0,2023-07-30T19:56:56Z,8
+700,Mario Lemina,185 lbs,1.83,29,Gabon,Wolverhampton Wanderers,5,Midfielder,19,2,1373,73,18,9,0,1,1,3,1,2,9,0,28,0,2023-07-30T19:56:59Z,20
+188,Hugo Bueno,161 lbs,1.8,20,Spain,Wolverhampton Wanderers,64,Defender,21,5,1388,67,7,7,0,3,0,1,1,1,4,0,29,0,2023-07-30T19:56:59Z,20
+699,Álex Moreno,150 lbs,1.78,30,Spain,Aston Villa,15,Defender,19,5,1388,74,17,11,0,2,0,3,4,3,12,0,11,0,2023-07-30T19:56:57Z,2
+471,Jason Steele,172 lbs,1.88,32,England,Brighton & Hove Albion,23,Goalkeeper,15,0,1461,98,0,1,1,0,0,1,1,1,1,0,20,144,2023-07-30T19:56:56Z,5
+511,Victor Lindelöf,174 lbs,1.88,29,Sweden,Manchester United,2,Defender,20,6,1473,75,10,4,0,0,0,1,0,0,3,0,16,0,2023-07-30T19:56:59Z,14
+517,Tyrell Malacia,148 lbs,1.7,23,Netherlands,Manchester United,12,Defender,22,8,1491,69,38,14,0,1,0,6,0,1,5,0,14,0,2023-07-30T19:56:59Z,14
+322,Ainsley Maitland-Niles,157 lbs,1.78,25,England,Southampton,3,Midfielder,22,9,1510,70,12,8,0,3,0,3,0,1,1,0,28,0,2023-07-30T20:58:14Z,17
+747,Weston McKennie,183 lbs,1.83,24,USA,Leeds United,28,Midfielder,19,3,1514,81,21,5,0,3,0,7,1,2,12,0,35,0,2023-07-30T20:58:13Z,10
+516,Aaron Wan-Bissaka,159 lbs,1.83,25,England,Manchester United,29,Defender,19,3,1523,81,11,1,0,2,0,2,0,2,10,0,10,0,2023-07-30T19:56:59Z,14
+750,Felipe,183 lbs,1.9,34,Brazil,Nottingham Forest,38,Defender,16,1,1526,96,15,11,0,3,0,4,1,1,13,0,32,0,2023-07-30T19:56:55Z,16
+64,Joe Gomez,170 lbs,1.88,26,England,Liverpool,2,Defender,21,6,1588,77,13,4,0,5,0,3,0,2,7,0,16,0,2023-07-30T19:56:58Z,12
+757,Enzo Fernández,168 lbs,1.78,22,Argentina,Chelsea,5,Midfielder,18,0,1642,92,10,22,0,4,0,3,2,3,20,0,24,0,2023-07-30T19:56:58Z,6
+70,Ibrahima Konaté,207 lbs,1.93,24,France,Liverpool,5,Defender,18,1,1658,93,29,15,1,1,0,5,0,4,13,0,21,0,2023-07-30T19:56:58Z,12
+249,Scott McKenna,161 lbs,1.88,26,Scotland,Nottingham Forest,26,Defender,20,1,1673,85,7,4,0,4,0,4,0,0,3,0,32,0,2023-07-30T19:56:55Z,16
+450,Daniel Amartey,172 lbs,1.85,28,Ghana,Leicester City,18,Defender,20,2,1708,86,7,3,0,3,0,1,0,2,6,0,25,0,2023-07-30T20:58:15Z,11
+464,Boubakary Soumaré,152 lbs,1.88,24,France,Leicester City,42,Midfielder,26,6,1720,67,31,22,0,0,0,9,1,0,1,0,27,0,2023-07-30T20:58:15Z,11
+243,Dean Henderson,185 lbs,1.88,26,England,Manchester United,26,Goalkeeper,18,0,1727,97,1,1,0,,0,2,0,0,0,0,31,215,2023-07-30T19:56:59Z,14
+35,Nathaniel Clyne,148 lbs,1.75,32,England,Crystal Palace,17,Defender,22,3,1743,80,10,8,0,2,0,3,0,0,0,0,21,0,2023-07-30T19:56:57Z,7
+368,Trevoh Chalobah,163 lbs,1.9,24,England,Chelsea,14,Defender,25,7,1744,71,11,8,1,2,0,4,0,2,9,0,21,0,2023-07-30T19:56:58Z,6
+369,Marc Cucurella,146 lbs,1.73,25,Spain,Chelsea,32,Defender,24,3,1764,75,16,20,0,8,0,4,2,0,5,0,18,0,2023-07-30T19:56:58Z,6
+459,Wilfred Ndidi,161 lbs,1.83,26,Nigeria,Leicester City,25,Midfielder,27,8,1773,67,28,14,0,0,0,4,0,2,7,0,35,0,2023-07-30T20:58:15Z,11
+174,Lewis Cook,157 lbs,1.75,26,England,AFC Bournemouth,4,Midfielder,28,10,1854,67,15,10,0,2,0,4,2,0,5,0,38,0,2023-07-30T19:56:55Z,
+145,Boubacar Kamara,150 lbs,1.83,23,France,Aston Villa,44,Midfielder,24,3,1890,80,33,31,0,0,0,4,1,1,4,0,28,0,2023-07-30T19:56:57Z,2
+135,Jan Bednarek,183 lbs,1.88,27,Poland,Southampton,35,Defender,23,2,1897,84,16,8,1,1,0,5,0,1,10,0,37,0,2023-07-30T20:58:14Z,17
+137,Matty Cash,172 lbs,1.85,25,Poland,Aston Villa,2,Defender,26,6,1952,76,19,15,0,3,0,4,1,1,6,0,25,0,2023-07-30T19:56:57Z,2
+267,Ryan Yates,192 lbs,1.9,25,England,Nottingham Forest,22,Midfielder,26,5,1959,76,46,53,0,4,0,5,3,5,26,0,36,0,2023-07-30T19:56:55Z,16
+192,Nathan Collins,,1.93,22,Republic of Ireland,Brentford,,Defender,26,7,1965,77,17,9,0,3,1,2,0,0,3,0,36,0,2023-07-30T19:56:58Z,4
+428,Aaron Hickey,159 lbs,1.78,21,Scotland,Brentford,2,Defender,26,3,2006,78,18,35,0,2,0,7,1,2,11,0,30,0,2023-07-30T19:56:58Z,4
+315,Armel Bella-Kotchap,192 lbs,1.9,21,Germany,Southampton,37,Defender,24,0,2015,85,9,33,0,1,0,4,2,2,14,0,37,0,2023-07-30T20:58:14Z,17
+508,Raphaël Varane,179 lbs,1.9,30,France,Manchester United,19,Defender,24,2,2017,85,12,3,1,3,0,1,0,4,7,0,21,0,2023-07-30T19:56:59Z,14
+540,Kyle Walker,174 lbs,1.78,33,England,Manchester City,2,Defender,27,5,2078,78,13,10,0,1,0,3,0,1,6,0,19,0,2023-07-30T19:56:54Z,13
+314,Mohammed Salisu,181 lbs,1.9,24,Ghana,Southampton,22,Defender,22,1,2093,96,26,3,1,6,0,5,1,5,20,0,37,0,2023-07-30T20:58:14Z,17
+546,Rúben Dias,168 lbs,1.85,26,Portugal,Manchester City,3,Defender,26,4,2112,82,18,7,0,0,0,3,0,2,9,0,15,0,2023-07-30T19:56:54Z,13
+473,Adam Webster,163 lbs,1.9,28,England,Brighton & Hove Albion,4,Defender,27,4,2114,79,10,6,1,1,0,2,0,3,19,0,23,0,2023-07-30T19:56:56Z,5
+160,Lloyd Kelly,152 lbs,1.78,24,England,AFC Bournemouth,5,Defender,23,0,2171,95,16,5,0,4,0,3,2,0,3,0,37,0,2023-07-30T19:56:55Z,
+470,Robert Sánchez,196 lbs,1.98,25,Spain,Brighton & Hove Albion,1,Goalkeeper,23,0,2210,97,1,0,0,,0,2,0,0,0,0,27,188,2023-07-30T19:56:56Z,5
+572,Vladimír Coufal,168 lbs,1.78,30,Czech Republic,West Ham United,5,Defender,27,3,2266,85,31,21,0,6,0,5,1,0,5,0,34,0,2023-07-30T19:56:55Z,19
+262,Remo Freuler,174 lbs,1.8,31,Switzerland,Nottingham Forest,23,Midfielder,28,4,2280,82,23,12,0,1,0,4,0,1,8,0,47,0,2023-07-30T19:56:55Z,16
+229,Tyler Adams,159 lbs,1.73,24,USA,Leeds United,12,Midfielder,24,0,2290,96,35,21,0,0,1,5,0,0,4,0,35,0,2023-07-30T20:58:13Z,10
+334,Hugo Lloris,181 lbs,1.88,36,France,Tottenham Hotspur,1,Goalkeeper,25,0,2345,95,0,2,1,,0,0,0,1,1,0,38,309,2023-07-30T19:56:58Z,18
+161,Chris Mepham,192 lbs,1.93,25,Wales,AFC Bournemouth,6,Defender,26,2,2348,91,16,7,2,3,0,7,0,6,10,0,49,0,2023-07-30T19:56:55Z,
+573,Thilo Kehrer,168 lbs,1.85,26,Germany,West Ham United,24,Defender,27,2,2367,89,31,12,1,4,0,4,2,2,10,0,33,0,2023-07-30T19:56:55Z,19
+568,Aaron Cresswell,146 lbs,1.7,33,England,West Ham United,3,Defender,28,4,2376,86,9,9,0,3,0,3,1,1,9,0,31,0,2023-07-30T19:56:55Z,19
+545,Manuel Akanji,201 lbs,1.85,28,Switzerland,Manchester City,25,Defender,29,5,2444,85,24,12,0,2,0,2,1,2,15,0,23,0,2023-07-30T19:56:54Z,13
+443,Danny Ward,192 lbs,1.9,30,Wales,Leicester City,1,Goalkeeper,26,0,2480,96,0,5,0,,0,0,0,0,0,0,42,309,2023-07-30T20:58:15Z,11
+363,Thiago Silva,172 lbs,1.83,38,Brazil,Chelsea,6,Defender,27,1,2515,94,9,13,0,7,0,2,2,2,15,0,29,0,2023-07-30T19:56:58Z,6
+339,Cristian Romero,172 lbs,1.85,25,Argentina,Tottenham Hotspur,17,Defender,27,1,2517,94,42,12,0,3,1,10,1,2,11,0,40,0,2023-07-30T19:56:58Z,18
+153,Neto,183 lbs,1.9,34,Brazil,AFC Bournemouth,13,Goalkeeper,27,0,2541,95,0,4,0,0,0,4,0,0,0,0,38,369,2023-07-30T19:56:55Z,
+30,Vicente Guaita,179 lbs,1.9,36,Spain,Crystal Palace,13,Goalkeeper,27,0,2580,97,1,3,0,,0,1,0,0,0,0,32,310,2023-07-30T19:56:57Z,7
+403,Idrissa Gueye,146 lbs,1.75,33,Senegal,Everton,27,Midfielder,33,1,2686,82,43,50,0,4,0,7,1,6,15,0,45,0,2023-07-30T19:56:56Z,8
+65,Andy Robertson,139 lbs,1.78,29,Scotland,Liverpool,26,Defender,34,5,2725,81,21,10,0,4,0,3,8,2,14,0,33,0,2023-07-30T19:56:58Z,12
+360,Kepa Arrizabalaga,183 lbs,1.88,28,Spain,Chelsea,1,Goalkeeper,29,0,2737,95,0,8,0,0,0,1,0,0,0,0,30,289,2023-07-30T19:56:58Z,6
+189,Nélson Semedo,148 lbs,1.78,29,Portugal,Wolverhampton Wanderers,22,Defender,36,5,2818,79,45,24,0,3,1,11,1,0,9,0,43,0,2023-07-30T19:56:59Z,20
+78,Fabinho,172 lbs,1.88,29,Brazil,Liverpool,3,Midfielder,36,5,2818,79,52,24,0,5,0,11,2,4,17,0,33,0,2023-07-30T19:56:58Z,12
+399,Vitalii Mykolenko,157 lbs,1.8,24,Ukraine,Everton,19,Defender,34,4,2839,85,29,21,0,8,0,4,0,3,9,0,46,0,2023-07-30T19:56:56Z,8
+48,Cheick Doucouré,161 lbs,1.8,23,Mali,Crystal Palace,28,Midfielder,34,0,2874,86,37,13,0,3,1,10,3,6,37,0,40,0,2023-07-30T19:56:57Z,7
+41,Tyrick Mitchell,150 lbs,1.75,23,England,Crystal Palace,3,Defender,36,2,3063,86,33,10,0,3,1,5,2,1,6,0,37,0,2023-07-30T19:56:57Z,7
+309,Gavin Bazunu,172 lbs,1.88,21,Republic of Ireland,Southampton,31,Goalkeeper,32,0,3083,97,1,2,0,,0,0,0,0,0,0,52,348,2023-07-30T20:58:14Z,17
+155,Adam Smith,172 lbs,1.8,32,England,AFC Bournemouth,15,Defender,37,3,3116,85,27,27,0,1,0,11,1,1,5,0,56,0,2023-07-30T19:56:55Z,
+214,Illan Meslier,161 lbs,1.98,23,France,Leeds United,1,Goalkeeper,34,0,3264,97,1,5,0,,0,3,0,1,1,0,66,388,2023-07-30T20:58:13Z,10
+563,Lukasz Fabianski,183 lbs,1.9,38,Poland,West Ham United,1,Goalkeeper,36,0,3301,93,0,4,0,,0,1,0,0,0,0,47,391,2023-07-30T19:56:55Z,19
+97,Antonee Robinson,152 lbs,1.83,25,USA,Fulham,33,Defender,35,0,3311,96,33,24,0,1,0,8,1,0,4,0,42,0,2023-07-30T19:56:56Z,9
+292,Sven Botman,179 lbs,1.93,23,Netherlands,Newcastle United,4,Defender,36,1,3331,94,15,13,0,6,0,2,0,7,23,0,28,0,2023-07-30T19:56:57Z,15
+126,Emiliano Martínez,192 lbs,1.96,30,Argentina,Aston Villa,1,Goalkeeper,36,0,3340,94,1,6,1,,0,7,0,1,1,0,34,330,2023-07-30T19:56:57Z,2
+539,Ederson,190 lbs,1.88,29,Brazil,Manchester City,31,Goalkeeper,35,0,3348,97,1,4,0,0,0,3,1,0,0,0,31,220,2023-07-30T19:56:54Z,13
+220,Robin Koch,185 lbs,1.93,27,Germany,Leeds United,5,Defender,36,0,3383,95,35,17,1,4,0,7,0,5,18,0,73,0,2023-07-30T20:58:13Z,10
+424,Rico Henry,148 lbs,1.7,26,England,Brentford,3,Defender,37,0,3439,94,31,38,0,6,0,4,2,4,22,0,43,0,2023-07-30T19:56:58Z,4
+184,José Sá,183 lbs,1.93,30,Portugal,Wolverhampton Wanderers,1,Goalkeeper,36,0,3461,97,1,8,0,,0,2,0,0,0,0,54,431,2023-07-30T19:56:59Z,20
+90,Bernd Leno,181 lbs,1.88,31,Germany,Fulham,17,Goalkeeper,36,0,3471,97,1,3,0,,0,3,0,0,0,0,49,424,2023-07-30T19:56:56Z,9
+281,Nick Pope,168 lbs,1.9,31,England,Newcastle United,22,Goalkeeper,37,0,3490,95,0,2,0,,1,3,0,0,0,0,31,326,2023-07-30T19:56:57Z,15
+190,Max Kilman,194 lbs,1.93,26,England,Wolverhampton Wanderers,23,Defender,37,0,3530,96,18,12,0,9,0,3,0,0,14,0,55,0,2023-07-30T19:56:59Z,20
+136,Ezri Konsa,170 lbs,1.83,25,England,Aston Villa,4,Defender,38,1,3534,94,12,64,0,4,0,6,0,0,7,0,42,0,2023-07-30T19:56:57Z,2
+60,Alisson,201 lbs,1.93,30,Brazil,Liverpool,1,Goalkeeper,37,0,3547,97,1,5,0,,0,1,1,0,0,0,41,296,2023-07-30T19:56:58Z,12
+388,Jordan Pickford,181 lbs,1.85,29,England,Everton,1,Goalkeeper,37,0,3556,97,1,5,0,,0,6,1,0,0,0,57,493,2023-07-30T19:56:56Z,8
+1,Aaron Ramsdale,192 lbs,1.88,25,England,Arsenal,1,Goalkeeper,38,0,3660,97,0,4,0,,0,1,0,0,0,0,42,290,2023-07-30T19:56:55Z,1
+418,David Raya,174 lbs,1.83,27,Spain,Brentford,1,Goalkeeper,38,0,3667,98,0,6,1,,0,1,0,1,2,0,43,506,2023-07-30T19:56:58Z,4

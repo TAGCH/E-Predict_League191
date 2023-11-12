@@ -11,18 +11,18 @@ def homepage(request):
         "3": "Bournemouth",
         "4": "Brentford",
         "5": "Brighton & Hove Albion",
-        "6": "Burnley",
-        "7": "Chelsea",
-        "8": "Crystal Palace",
-        "9": "Everton",
-        "10": "Fulham",
-        "11": "Liverpool",
-        "12": "Luton Town",
+        "6": "Chelsea",
+        "7": "Crystal Palace",
+        "8": "Everton",
+        "9": "Fulham",
+        "10": "Leeds United",
+        "11": "Leicester City",
+        "12": "Liverpool",
         "13": "Manchester City",
         "14": "Manchester United",
         "15": "Newcastle United",
         "16": "Nottingham Forest",
-        "17": "Sheffield United",
+        "17": "Southampton",
         "18": "Tottenham Hotspur",
         "19": "West Ham United",
         "20": "Wolverhampton Wanderers"
@@ -30,35 +30,43 @@ def homepage(request):
     context = {"page": "homepage", "detail": "show all team", "data": data}
     return render(request, "audience/homepage.html", context)
 
-def team_detail(request, team):
-    data = {}
-    filename = "audience/static/audience/data/team_summary.csv"
-    with open(filename, 'r', encoding='utf-8') as file:
-        rows = csv.DictReader(file)
-        for r in rows:
-            if r['Team'] == team:
-                data = r
+def team_detail(request, team_id):
+    player_filename = "audience/static/audience/data/player_with_team_id.csv"
+    team_filename = "audience/static/audience/data/team_detail.csv"
 
-    filename = "audience/static/audience/data/players.csv"
-    with open(filename, 'r', encoding='utf-8') as player_file:
-        rows = csv.DictReader(player_file)
-        player_count = 0
-        for r in rows:
-            if r['Team'].replace(" ", "") == team:
-                data[f"player_number{player_count}"] = r["Name"]
-                player_count += 1
+    players = []
+    team_details = {}
+
+    # Load player data
+    with open(player_filename, 'r', encoding='utf-8') as player_file:
+        player_rows = csv.DictReader(player_file)
+        for player_row in player_rows:
+            team_id_str = player_row.get('team_id', '')
+            if team_id_str and int(team_id_str) == team_id:
+                players.append(player_row)
+
+    # Load team detail data
+    with open(team_filename, 'r', encoding='utf-8') as team_file:
+        team_rows = csv.DictReader(team_file)
+        for team_row in team_rows:
+            team_details[team_row['team_id']] = team_row
+
+    # Get team details for the specified team_id
+    team_detail = team_details.get(str(team_id), {})
 
     context = {
-                "page": "team_detail",
-                "detail": f"show detail on each team(team_name ={team}).",
-                "data": data,
-                "team": data["Team"]
-                }
+        "page": "team_detail",
+        "detail": "show all players and team details for the team",
+        "team_id": team_id,
+        "players": players,
+        "team_detail": team_detail,
+    }
     return render(request, "audience/team_detail.html", context)
+
 
 def player_information(request, player_id):
     data = {}
-    filename = "audience/static/audience/data/players.csv"
+    filename = "audience/static/audience/data/player_with_team_id.csv"
     with open(filename, 'r', encoding='utf-8') as file:
         rows = csv.DictReader(file)
         for r in rows:
@@ -71,5 +79,3 @@ def player_information(request, player_id):
                 "data": data
                 }
     return render(request, "audience/player_information.html", context)
-
-
