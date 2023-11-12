@@ -61,6 +61,7 @@ def team_detail(request, team_id):
         "players": players,
         "team_detail": team_detail,
     }
+
     return render(request, "audience/team_detail.html", context)
 
 
@@ -73,9 +74,5 @@ def player_information(request, player_id):
             if int(r['Id']) == player_id:
                 data = r
 
-    context = {
-                "page": "player_information",
-                "detail": "show all player infos",
-                "data": data
-                }
+    context = {"page": "player_information", "detail": "show all player infos", "data": data}
     return render(request, "audience/player_information.html", context)
