@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="item">
-            <a href="#" target="_blank" rel="noopener">
+            <a href="#" rel="noopener">
                 <img class="rounded-circle" src="{% static 'audience\image\Logo.png' %}" alt="Logo" width="50" height="50">
             </a>
         </div>
@@ -20,7 +20,7 @@
             <a href="#">KU POLLS</a>
             <a href="#">KU POLLS</a>
         </nav>
-        
+
         <nav class="navigation">
             <a href="{% url 'user_profile:profile' %}">{{user}}</a>
             {% if user.is_authenticated %}
