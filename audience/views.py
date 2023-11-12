@@ -64,7 +64,6 @@ def team_detail(request, team_id):
 
     return render(request, "audience/team_detail.html", context)
 
-
 def player_information(request, player_id):
     data = {}
     filename = "audience/static/audience/data/player_with_team_id.csv"
