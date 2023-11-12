@@ -1,0 +1,52 @@
+{% block content %}
+  <h2>Team Comparison</h2>
+  
+  <form method="post" action="{% url 'audience:team_comparison' %}">
+    {% csrf_token %}
+    
+    <label for="team1">Select Team 1:</label>
+    <select name="team1" id="team1">
+      {% for team in teams %}
+        <option value="{{ team.team_id }}">{{ team.Team }}</option>
+      {% endfor %}
+    </select>
+    
+    <label for="team2">Select Team 2:</label>
+    <select name="team2" id="team2">
+      {% for team in teams %}
+        <option value="{{ team.team_id }}">{{ team.Team }}</option>
+      {% endfor %}
+    </select>
+    
+    <button type="submit">Compare Teams</button>
+  </form>
+
+  {% if team1_stats and team2_stats %}
+    <h3>Comparison Table</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Statistic</th>
+          <th>{{ team1_stats.Team }}</th>
+          <th>{{ team2_stats.Team }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Won</td>
+          <td>{{ team1_stats.Won }}</td>
+          <td>{{ team2_stats.Won }}</td>
+        </tr>
+        <tr>
+          <td>Lose</td>
+          <td>{{ team1_stats.Lose }}</td>
+          <td>{{ team2_stats.Lose }}</td>
+        </tr>
+        <!-- Add other statistics here -->
+      </tbody>
+    </table>
+
+    <h3>Comparison Radar Graph</h3>
+    <!-- Add your radar graph implementation here using a chart library -->
+  {% endif %}
+{% endblock %}

@@ -75,3 +75,29 @@ def player_information(request, player_id):
 
     context = {"page": "player_information", "detail": "show all player infos", "data": data}
     return render(request, "audience/player_information.html", context)
+
+def team_comparison(request):
+    team_filename = "audience/static/audience/data/team_detail.csv"
+
+    # Load team detail data
+    with open(team_filename, 'r', encoding='utf-8') as team_file:
+        team_rows = csv.DictReader(team_file)
+        teams = list(team_rows)
+
+    if request.method == 'POST':
+        team1_id = request.POST.get('team1', '')
+        team2_id = request.POST.get('team2', '')
+
+        team1_stats = next((team for team in teams if team['team_id'] == team1_id), None)
+        team2_stats = next((team for team in teams if team['team_id'] == team2_id), None)
+
+        context = {
+            'teams': teams,
+            'team1_stats': team1_stats,
+            'team2_stats': team2_stats,
+        }
+
+        return render(request, 'audience/team_comparison.html', context)
+
+    context = {'teams': teams}
+    return render(request, 'audience/team_comparison.html', context)
