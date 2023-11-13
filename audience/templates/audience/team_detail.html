@@ -12,7 +12,7 @@
   <h3>List of Players</h3>
   <ul>
     {% for player in players %}
-      <li><a href="{% url 'audience:player_information' player.Id %}">{{ player.Name }}</a></li>
+      <li><a href="{% url 'audience:player_information' player.Team player.Id %}">{{ player.Name }}</a></li>
     {% endfor %}
   </ul>
 {% endblock %}

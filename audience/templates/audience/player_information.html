@@ -1,6 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+
+
 {% block content %}
   <h2>Player Information</h2>
   <p>Name: {{ data.Name }}</p>
-  <p>Id: {{ data.Id }}</p>
+  <p>Team: {{ data.Team }}</p>
+    <p>Position: {{ data.Position }}</p>
+    <p>Appearances: {{ data.Appearances }}</p>
+    <p>TotalGoals: {{ data.TotalGoals }}</p>
+    <p>GoalsConceded: {{ data.GoalsConceded }}</p>
+
   <!-- Add other player details here -->
 {% endblock %}

@@ -50,7 +50,7 @@ Id,Name,Weight,Height (meter),Age,citizenship,Team,Jersey,Position,Appearances,S
 590,Saïd Benrahma,148 lbs,1.73,27,Algeria,West Ham United,22,Forward,35,13,2189,64,13,15,0,5,0,0,3,25,70,6,31,0,2023-07-30T19:56:55Z,19
 146,Jacob Ramsey,,1.8,22,England,Aston Villa,41,Midfielder,35,4,2766,80,35,45,1,6,0,5,7,13,35,6,30,0,2023-07-30T19:56:57Z,2
 305,Joelinton,179 lbs,1.85,26,Brazil,Newcastle United,7,Forward,32,2,2837,90,64,34,0,3,0,12,1,18,50,6,25,0,2023-07-30T19:56:57Z,15
-181,Dominic Solanke,174 lbs,1.88,25,England,AFC Bournemouth,9,Forward,33,1,3010,92,37,53,0,2,0,2,7,28,75,6,50,0,2023-07-30T19:56:55Z,
+181,Dominic Solanke,174 lbs,1.88,25,England,AFC Bournemouth,9,Forward,33,1,3010,92,37,53,0,2,0,2,7,28,75,6,50,0,2023-07-30T19:56:55Z,3
 147,Douglas Luiz,146 lbs,1.75,25,Brazil,Aston Villa,6,Midfielder,37,4,3084,84,46,42,0,2,1,6,6,11,34,6,33,0,2023-07-30T19:56:57Z,2
 591,Jarrod Bowen,152 lbs,1.75,26,England,West Ham United,20,Forward,38,2,3418,91,21,68,0,4,0,2,5,21,73,6,49,0,2023-07-30T19:56:55Z,19
 500,Deniz Undav,190 lbs,1.78,27,Germany,Brighton & Hove Albion,21,Forward,22,16,732,34,14,4,1,1,0,2,0,13,27,5,7,0,2023-07-30T19:56:56Z,5
@@ -59,7 +59,7 @@ Id,Name,Weight,Height (meter),Age,citizenship,Team,Jersey,Position,Appearances,S
 121,Carlos Vinicius,190 lbs,1.9,28,Brazil,Fulham,30,Forward,28,17,1249,46,19,15,0,1,0,3,2,11,20,5,20,0,2023-07-30T19:56:56Z,9
 348,Rodrigo Bentancur,159 lbs,1.88,26,Uruguay,Tottenham Hotspur,30,Midfielder,18,1,1572,88,24,8,0,3,0,8,2,9,15,5,24,0,2023-07-30T19:56:58Z,18
 404,Abdoulaye Doucouré,163 lbs,1.83,30,Mali,Everton,16,Midfielder,25,8,1671,68,20,4,0,2,1,6,2,8,19,5,27,0,2023-07-30T19:56:56Z,8
-175,Marcus Tavernier,152 lbs,1.78,24,England,AFC Bournemouth,16,Midfielder,23,4,1830,81,20,28,0,1,0,1,4,14,37,5,35,0,2023-07-30T19:56:55Z,
+175,Marcus Tavernier,152 lbs,1.78,24,England,AFC Bournemouth,16,Midfielder,23,4,1830,81,20,28,0,1,0,1,4,14,37,5,35,0,2023-07-30T19:56:55Z,3
 56,Odsonne Édouard,183 lbs,1.88,25,France,Crystal Palace,22,Forward,35,15,1909,56,26,17,0,2,0,3,2,14,39,5,25,0,2023-07-30T19:56:57Z,7
 588,Michail Antonio,181 lbs,1.8,33,Jamaica,West Ham United,9,Forward,33,12,1916,59,23,44,0,1,0,2,3,12,38,5,28,0,2023-07-30T19:56:55Z,19
 330,Ché Adams,152 lbs,1.75,27,Scotland,Southampton,10,Forward,28,5,2117,77,34,27,0,1,0,1,3,14,46,5,38,0,2023-07-30T20:58:14Z,17
@@ -149,7 +149,7 @@ Id,Name,Weight,Height (meter),Age,citizenship,Team,Jersey,Position,Appearances,S
 463,Kiernan Dewsbury-Hall,,1.78,24,England,Leicester City,22,Midfielder,31,3,2427,79,33,35,0,10,1,4,2,6,24,2,37,0,2023-07-30T20:58:15Z,11
 337,Ben Davies,170 lbs,1.8,30,Wales,Tottenham Hotspur,33,Defender,31,5,2438,80,29,17,0,4,0,4,2,5,14,2,33,0,2023-07-30T19:56:58Z,18
 10,William Saliba,203 lbs,1.93,22,France,Arsenal,2,Defender,27,0,2578,97,18,13,1,0,0,4,1,4,7,2,24,0,2023-07-30T19:56:55Z,1
-159,Marcos Senesi,174 lbs,1.85,26,Argentina,AFC Bournemouth,25,Defender,31,2,2637,86,29,13,0,9,0,7,0,2,8,2,53,0,2023-07-30T19:56:55Z,
+159,Marcos Senesi,174 lbs,1.85,26,Argentina,AFC Bournemouth,25,Defender,31,2,2637,86,29,13,0,9,0,7,0,2,8,2,53,0,2023-07-30T19:56:55Z,3
 49,Michael Olise,168 lbs,1.83,21,France,Crystal Palace,7,Midfielder,37,6,2893,79,28,69,0,2,0,2,11,11,50,2,36,0,2023-07-30T19:56:57Z,7
 580,Tomás Soucek,190 lbs,1.93,28,Czech Republic,West Ham United,28,Midfielder,36,4,2983,84,45,16,0,0,0,3,3,14,35,2,41,0,2023-07-30T19:56:55Z,19
 340,Eric Dier,183 lbs,1.88,29,England,Tottenham Hotspur,15,Defender,33,2,3009,92,25,11,0,4,0,3,1,4,17,2,51,0,2023-07-30T19:56:58Z,18
