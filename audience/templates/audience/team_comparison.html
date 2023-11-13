@@ -1,18 +1,21 @@
 {% block content %}
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <h2>Team Comparison</h2>
   
-  <form method="post" action="{% url 'audience:team_comparison' %}">
+  <form method="post" action="{% url 'audience:team_comparison' %}" onsubmit="return validateBeforeSubmit()">
     {% csrf_token %}
     
     <label for="team1">Select Team 1:</label>
-    <select name="team1" id="team1">
+    <select name="team1" id="team1" onchange="updateTeams('team1', this.value)">
+      <option value="" selected disabled>Select Team</option>
       {% for team in teams %}
         <option value="{{ team.team_id }}">{{ team.Team }}</option>
       {% endfor %}
     </select>
     
     <label for="team2">Select Team 2:</label>
-    <select name="team2" id="team2">
+    <select name="team2" id="team2" onchange="updateTeams('team2', this.value)">
+      <option value="" selected disabled>Select Team</option>
       {% for team in teams %}
         <option value="{{ team.team_id }}">{{ team.Team }}</option>
       {% endfor %}
@@ -42,11 +45,109 @@
           <td>{{ team1_stats.Lose }}</td>
           <td>{{ team2_stats.Lose }}</td>
         </tr>
+        <tr>
+          <td>Draw</td>
+          <td>{{ team1_stats.Draw }}</td>
+          <td>{{ team2_stats.Draw }}</td>
+        </tr>
+        <tr>
+          <td>Point</td>
+          <td>{{ team1_stats.Point }}</td>
+          <td>{{ team2_stats.Point }}</td>
+        </tr>
+        <tr>
+          <td>Goals</td>
+          <td>{{ team1_stats.Goals }}</td>
+          <td>{{ team2_stats.Goals }}</td>
+        </tr>
+        <tr>
+          <td>Rank</td>
+          <td>{{ team1_stats.Rank }}</td>
+          <td>{{ team2_stats.Rank }}</td>
+        </tr>
         <!-- Add other statistics here -->
       </tbody>
     </table>
 
     <h3>Comparison Radar Graph</h3>
-    <!-- Add your radar graph implementation here using a chart library -->
+    <canvas id="radar-chart"></canvas>
   {% endif %}
+
+  <script>
+    // Function to update dropdown options based on the selected team
+    function updateTeams(selectId, selectedValue) {
+      // Identify the other dropdown
+      var otherSelectId = (selectId === 'team1') ? 'team2' : 'team1';
+      var otherSelect = document.getElementById(otherSelectId);
+
+      // Remove the selected option from the other dropdown
+      for (var i = 0; i < otherSelect.options.length; i++) {
+        if (otherSelect.options[i].value === selectedValue) {
+          otherSelect.remove(i);
+          break;
+        }
+      }
+
+      // If the selected option is not in the other dropdown, add it back
+      if (!otherSelect.querySelector('option[value="' + selectedValue + '"]')) {
+        otherSelect.add(new Option(selectedValue, selectedValue));
+      }
+    }
+
+    // Function to validate team selection before form submission
+    function validateBeforeSubmit() {
+      var team1Select = document.getElementById('team1');
+      var team2Select = document.getElementById('team2');
+
+      // Check if neither team is selected
+      if (team1Select.value === '' && team2Select.value === '') {
+        alert('Please select at least one team before comparing.');
+        return false; // Prevent form submission
+      }
+
+      return true; // Allow form submission if at least one team is selected
+    }
+    
+    // Display radar graph when the document is ready
+    document.addEventListener('DOMContentLoaded', function() {
+      displayRadarGraph(
+        [{{ team1_stats.Won }}, {{ team1_stats.Lose }}, {{ team1_stats.Draw }}, {{ team1_stats.Point }}, {{ team1_stats.Goals }}],
+        [{{ team2_stats.Won }}, {{ team2_stats.Lose }}, {{ team2_stats.Draw }}, {{ team2_stats.Point }}, {{ team2_stats.Goals }}]
+      );
+    });
+
+    // Function to display radar graph
+    function displayRadarGraph(data1, data2) {
+      var ctx = document.getElementById('radar-chart').getContext('2d');
+      new Chart(ctx, {
+        type: 'radar',
+        data: {
+          labels: ['Won', 'Lose', 'Draw', 'Point', 'Goals'],  // Add more labels based on your statistics
+          datasets: [
+            {
+              label: '{{ team1_stats.Team }}',
+              data: data1,
+              backgroundColor: 'rgba(75, 192, 192, 0.2)',
+              borderColor: 'rgba(75, 192, 192, 1)',
+              borderWidth: 1
+            },
+            {
+              label: '{{ team2_stats.Team }}',
+              data: data2,
+              backgroundColor: 'rgba(255, 99, 132, 0.2)',
+              borderColor: 'rgba(255, 99, 132, 1)',
+              borderWidth: 1
+            }
+          ]
+        },
+        options: {
+          scale: {
+            ticks: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+    }
+  </script>
 {% endblock %}
