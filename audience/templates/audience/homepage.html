@@ -10,46 +10,179 @@
     <title>Homepage</title>
 </head>
 <body>
-    <a href="{% url 'user_profile:profile' %}">{{user}}</a>
-    {% if user.is_authenticated %}
-    <a href="{% url 'account_logout' %}">logout</a>
-    {% else %}
-    <a href="{% url 'account_login' %}">login</a>
-    {% endif %}
-    <div>
-        <a href="{% url 'audience:homepage' %}">Homepage</a>
-    </div>
-    <div class="center-both">
-        <div>
-            <h1 class="text-center">Hello, {{page}} page!</h1>
-            <p class="text-center">{{detail}}</p>
+    <header>
+        <div class="item">
+            <a href="#" rel="noopener">
+                <img class="rounded-circle" src="{% static 'audience\image\Logo.png' %}" alt="Logo" width="50" height="50">
+            </a>
         </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <nav class="navigation">
+            <a href="#">Radar Graph</a>
+            <a href="#">Prediction</a>
+        </nav>
+
+        <nav class="navigation-left">
+            <a href="{% url 'user_profile:profile' %}">{{user}}</a>
+            {% if user.is_authenticated %}
+            <button class="btnLogin-popup" onclick="window.location.href='{% url 'account_logout' %}'">Logout</button>
+            {% else %}
+            <button class="btnLogin-popup" onclick="window.location.href='{% url 'account_login' %}'">Login</button>
+            {% endif %}
+        </nav>
+    </header>
+    <br><br><br>
+    <img class="premier" src="{% static 'audience\image\premier.png' %}" alt="premier">
+    <div class="text-bar">
+        <h1>CLUBS</h1>
     </div>
+    <br>
     <div>
         <div class="container">
             <div class="d-flex flex-wrap p-2 justify-content-between">
                 <a href="{% url 'audience:team_detail' 1 %}" class="mr-3 mb-3">
-                    <div class="team-badge">
+                    <div class="team-badge-arsenal">
                         <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t3.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t3.png, https://resources.premierleague.com/premierleague/badges/100/t3@x2.png 2x">
+                        <span class="badge-text">Arsenal</span>
+                        <span class="badge-arrow">&#11166;</span>
                     </div>
                 </a>
                 <a href="{% url 'audience:team_detail' 2 %}" class="mr-3 mb-3">
-                    <div class="team-badge">
-                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t3.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t3.png, https://resources.premierleague.com/premierleague/badges/100/t3@x2.png 2x">
+                    <div class="team-badge-aston-villa">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t7.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t7.png, https://resources.premierleague.com/premierleague/badges/100/t7@x2.png 2x">
+                        <span class="badge-text">Aston Villa</span>
+                        <span class="badge-arrow">&#11166;</span>
                     </div>
                 </a>
                 <a href="{% url 'audience:team_detail' 3 %}" class="mr-3 mb-3">
-                    <div class="team-badge">
-                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t3.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t3.png, https://resources.premierleague.com/premierleague/badges/100/t3@x2.png 2x">
+                    <div class="team-badge-bournemouth">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t91.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t91.png, https://resources.premierleague.com/premierleague/badges/100/t91@x2.png 2x">
+                        <span class="badge-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AFC Bournemouth</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 4 %}" class="mr-3 mb-3">
+                    <div class="team-badge-brentford">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t94.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t94.png, https://resources.premierleague.com/premierleague/badges/100/t94@x2.png 2x">
+                        <span class="badge-text">Brentford</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 5 %}" class="mr-3 mb-3">
+                    <div class="team-badge-brighton">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t36.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t36.png, https://resources.premierleague.com/premierleague/badges/100/t36@x2.png 2x">
+                        <span class="badge-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brighton & Hove Albion</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 6 %}" class="mr-3 mb-3">
+                    <div class="team-badge-chelsea">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t8.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t8.png, https://resources.premierleague.com/premierleague/badges/100/t8@x2.png 2x">
+                        <span class="badge-text">Chelsea</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 7 %}" class="mr-3 mb-3">
+                    <div class="team-badge-palace">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t31.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t31.png, https://resources.premierleague.com/premierleague/badges/100/t31@x2.png 2x">
+                        <span class="badge-text">Crystal Palace</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 8 %}" class="mr-3 mb-3">
+                    <div class="team-badge-everton">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t11.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t11.png, https://resources.premierleague.com/premierleague/badges/100/t11@x2.png 2x">
+                        <span class="badge-text">Everton</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 9 %}" class="mr-3 mb-3">
+                    <div class="team-badge-fulham">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t54.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t54.png, https://resources.premierleague.com/premierleague/badges/100/t54@x2.png 2x">
+                        <span class="badge-text">Fulham</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 10 %}" class="mr-3 mb-3">
+                    <div class="team-badge-leeds">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t2.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t2.png, https://resources.premierleague.com/premierleague/badges/100/t2@x2.png 2x">
+                        <span class="badge-text">Leeds United</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 11 %}" class="mr-3 mb-3">
+                    <div class="team-badge-leicester">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t13.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t13.png, https://resources.premierleague.com/premierleague/badges/100/t13@x2.png 2x">
+                        <span class="badge-text">Leicester City</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 12 %}" class="mr-3 mb-3">
+                    <div class="team-badge-liverpool">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t14.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t14.png, https://resources.premierleague.com/premierleague/badges/100/t14@x2.png 2x">
+                        <span class="badge-text">Liverpool</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 13 %}" class="mr-3 mb-3">
+                    <div class="team-badge-man-city">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t43.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t43.png, https://resources.premierleague.com/premierleague/badges/100/t43@x2.png 2x">
+                        <span class="badge-text">Manchester City</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 14 %}" class="mr-3 mb-3">
+                    <div class="team-badge-man-u">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t1.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t1.png, https://resources.premierleague.com/premierleague/badges/100/t1@x2.png 2x">
+                        <span class="badge-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manchester United</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 15 %}" class="mr-3 mb-3">
+                    <div class="team-badge-newcastle">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t4.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t4.png, https://resources.premierleague.com/premierleague/badges/100/t4@x2.png 2x">
+                        <span class="badge-text">&nbsp;&nbsp;&nbsp;&nbsp;Newcastle United</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 16 %}" class="mr-3 mb-3">
+                    <div class="team-badge-forest">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t17.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t17.png, https://resources.premierleague.com/premierleague/badges/100/t17@x2.png 2x">
+                        <span class="badge-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nottingham Forest</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 17 %}" class="mr-3 mb-3">
+                    <div class="team-badge-southampton">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t20.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t20.png, https://resources.premierleague.com/premierleague/badges/100/t20@x2.png 2x">
+                        <span class="badge-text">Southampton</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 18 %}" class="mr-3 mb-3">
+                    <div class="team-badge-spur">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t6.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t6.png, https://resources.premierleague.com/premierleague/badges/100/t6@x2.png 2x">
+                        <span class="badge-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tottenham Hotspur</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 19 %}" class="mr-3 mb-3">
+                    <div class="team-badge-westham">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t21.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t21.png, https://resources.premierleague.com/premierleague/badges/100/t21@x2.png 2x">
+                        <span class="badge-text">&nbsp;&nbsp;&nbsp;&nbsp;West Ham United</span>
+                        <span class="badge-arrow">&#11166;</span>
+                    </div>
+                </a>
+                <a href="{% url 'audience:team_detail' 20 %}" class="mr-3 mb-3">
+                    <div class="team-badge-wolve">
+                        <img class="badge-image badge-image--78 js-badge-image" src="https://resources.premierleague.com/premierleague/badges/100/t39.png" srcset="https://resources.premierleague.com/premierleague/badges/100/t39.png, https://resources.premierleague.com/premierleague/badges/100/t39@x2.png 2x">
+                        <span class="badge-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wolverhampton Wanderers</span>
+                        <span class="badge-arrow">&#11166;</span>
                     </div>
                 </a>
             </div>
         <div>
-        <table>
-            {% for team, rank in data.items %}
-            <tr><td>{{team}}</td><td>{{rank}}</td></tr>
-            {% endfor %}
-        </table>
     </div>
+    <br>
 </body>
 </html>
