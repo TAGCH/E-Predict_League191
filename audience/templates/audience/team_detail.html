@@ -40,92 +40,116 @@
     <div class="logo-container">
       <img class="badge-image badge-image--78 js-badge-image" srcset={{ team_detail.team_pic }}>
     </div>
-    <br><br>
+    <br><br><br>
     <span class="title">{{ team_detail.Team }}</span>
-    <table>
-      <tr>
-          <td>Won</td>
-          <td>{{ team_detail.Won }}</td>
-      </tr>
-      <tr>
-          <td>Draw</td>
-          <td>{{ team_detail.Draw }}</td>
-      </tr>
-      <tr>
-          <td>Lose</td>
-          <td>{{ team_detail.Lose }}</td>
-      </tr>
-      <tr>
-          <td>Home Won</td>
-          <td>{{ team_detail.Home_Won }}</td>
-      </tr>
-      <tr>
-          <td>Home Draw</td>
-          <td>{{ team_detail.Home_Draw }}</td>
-      </tr>
-      <tr>
-          <td>Home Lose</td>
-          <td>{{ team_detail.Home_Lose }}</td>
-      </tr>
-      <tr>
-          <td>Away Won</td>
-          <td>{{ team_detail.Away_Won}}</td>
-      </tr>
-      <tr>
-          <td>Away Draw</td>
-          <td>{{ team_detail.Away_Draw }}</td>
-      </tr>
-      <tr>
-          <td>Away Lose</td>
-          <td>{{ team_detail.Away_Lose }}</td>
-      </tr>
-      <tr>
-          <td>Home Goal</td>
-          <td>{{ team_detail.Home_Goal }}</td>
-      </tr>
-      <tr>
-          <td>Away Goal</td>
-          <td>{{ team_detail.Away_Goal }}</td>
-      </tr>
-      <tr>
-          <td>Home Against</td>
-          <td>{{ team_detail.Home_Against }}</td>
-      </tr>
-      <tr>
-          <td>Away Against</td>
-          <td>{{ team_detail.Away_Against }}</td>
-      </tr>
-      <tr>
-          <td>Goals</td>
-          <td>{{ team_detail.Goals }}</td>
-      </tr>
-      <tr>
-          <td>Goals Against</td>
-          <td>{{ team_detail.GoalsAgainst }}</td>
-      </tr>
-      <tr>
-          <td>Rank</td>
-          <td>{{ team_detail.Rank }}</td>
-      </tr>
-      <tr>
-          <td>Point</td>
-          <td>{{ team_detail.Point }}</td>
-      </tr>
-  </table>
+    <br>
+    <div class="Static-title">Team Static</div>
+    <div class="outer-box2">
+        <div class="score-board">
+            <div class="player">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Won</td>
+                            <td>{{ team_detail.Won }}</td>
+                        </tr>
+                        <tr>
+                            <td>Draw</td>
+                            <td>{{ team_detail.Draw }}</td>
+                        </tr>
+                        <tr>
+                            <td>Lose</td>
+                            <td>{{ team_detail.Lose }}</td>
+                        </tr>
+                        <tr>
+                            <td>Home Won</td>
+                            <td>{{ team_detail.Home_Won }}</td>
+                        </tr>
+                        <tr>
+                            <td>Home Draw</td>
+                            <td>{{ team_detail.Home_Draw }}</td>
+                        </tr>
+                        <tr>
+                            <td>Home Lose</td>
+                            <td>{{ team_detail.Home_Lose }}</td>
+                        </tr>
+                        <tr>
+                            <td>Away Won</td>
+                            <td>{{ team_detail.Away_Won}}</td>
+                        </tr>
+                        <tr>
+                            <td>Away Draw</td>
+                            <td>{{ team_detail.Away_Draw }}</td>
+                        </tr>
+                        <tr>
+                            <td>Away Lose</td>
+                            <td>{{ team_detail.Away_Lose }}</td>
+                        </tr>
+                        <tr>
+                            <td>Home Goal</td>
+                            <td>{{ team_detail.Home_Goal }}</td>
+                        </tr>
+                        <tr>
+                            <td>Away Goal</td>
+                            <td>{{ team_detail.Away_Goal }}</td>
+                        </tr>
+                        <tr>
+                            <td>Home Against</td>
+                            <td>{{ team_detail.Home_Against }}</td>
+                        </tr>
+                        <tr>
+                            <td>Away Against</td>
+                            <td>{{ team_detail.Away_Against }}</td>
+                        </tr>
+                        <tr>
+                            <td>Goals</td>
+                            <td>{{ team_detail.Goals }}</td>
+                        </tr>
+                        <tr>
+                            <td>Goals Against</td>
+                            <td>{{ team_detail.GoalsAgainst }}</td>
+                        </tr>
+                        <tr>
+                            <td>Rank</td>
+                            <td>{{ team_detail.Rank }}</td>
+                        </tr>
+                        <tr>
+                            <td>Point</td>
+                            <td>{{ team_detail.Point }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
     <!-- Add other team details here -->
 
     <!-- Display List of Players -->
-    <h3>List of Players</h3>
-  <table>
-    <ul>
-      {% for player in players %}
-      <tr>
-        <td>{{ player.Jersey }}</td>
-        <td><a href="{% url 'audience:player_information' player.Id %}">{{ player.Name }}</a></td>
-        <td>{{ player.Position }}</td>
-      </tr>
-      {% endfor %}
-    </ul>
-  </table>
+    <div class="score-board-title">Players</div>
+    <br>
+    <div class="outer-box2">
+        <div class="score-board">
+            <div class="player">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Number</th>
+                            <th>Name</th>
+                            <th>Position</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for player in players %}
+                            <tr>
+                                <td>{{ player.Jersey }}</td>
+                                <td><a href="{% url 'audience:player_information' player.Id %}">{{ player.Name }}</a></td>
+                                <td>{{ player.Position }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
