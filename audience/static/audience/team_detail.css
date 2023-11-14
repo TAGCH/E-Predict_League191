@@ -36,8 +36,8 @@ header {
 }
 
 .navigation .btnLogin-popup {
-    width:  110px;
-    height: 40px;
+    width:  100px;
+    height: 38px;
     background: transparent;
     border: 1px solid #fff;
     outline: none;
@@ -90,8 +90,8 @@ header {
 }
 
 .navigation-left .btnLogin-popup {
-    width:  110px;
-    height: 40px;
+    width:  100px;
+    height: 38px;
     background: transparent;
     border: 1px solid #fff;
     outline: none;
