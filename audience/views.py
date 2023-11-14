@@ -64,13 +64,13 @@ def team_detail(request, team_id):
 
     return render(request, "audience/team_detail.html", context)
 
-def player_information(request, player_id):
+def player_information(request,team_name , player_id):
     data = {}
     filename = "audience/static/audience/data/player_with_team_id.csv"
     with open(filename, 'r', encoding='utf-8') as file:
         rows = csv.DictReader(file)
         for r in rows:
-            if int(r['Id']) == player_id:
+            if int(r['Id']) == player_id and r['Team'] == team_name:
                 data = r
 
     context = {"page": "player_information", "detail": "show all player infos", "data": data}
