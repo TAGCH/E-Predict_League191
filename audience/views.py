@@ -64,16 +64,33 @@ def team_detail(request, team_id):
 
     return render(request, "audience/team_detail.html", context)
 
-def player_information(request,team_name , player_id):
-    data = {}
-    filename = "audience/static/audience/data/player_with_team_id.csv"
-    with open(filename, 'r', encoding='utf-8') as file:
-        rows = csv.DictReader(file)
-        for r in rows:
-            if int(r['Id']) == player_id and r['Team'] == team_name:
-                data = r
+def player_information(request, team_name, player_id):
+    player_data = {}
+    team_data = {}
 
-    context = {"page": "player_information", "detail": "show all player infos", "data": data}
+    # Read player data from player_with_team_id.csv
+    player_filename = "audience/static/audience/data/player_with_team_id.csv"
+    with open(player_filename, 'r', encoding='utf-8') as player_file:
+        player_rows = csv.DictReader(player_file)
+        for player_row in player_rows:
+            if int(player_row['Id']) == player_id and player_row['Team'] == team_name:
+                player_data = player_row
+
+    # Read team data from team_detail.csv
+    team_filename = "audience/static/audience/data/team_detail.csv"
+    with open(team_filename, 'r', encoding='utf-8') as team_file:
+        team_rows = csv.DictReader(team_file)
+        for team_row in team_rows:
+            if team_row['Team'] == team_name:
+                team_data = team_row
+
+    context = {
+        "page": "player_information",
+        "detail": "show all player infos",
+        "player_data": player_data,
+        "team_data": team_data,
+    }
+
     return render(request, "audience/player_information.html", context)
 
 def team_comparison(request):

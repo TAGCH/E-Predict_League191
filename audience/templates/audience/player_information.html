@@ -1,5 +1,4 @@
 {% load static %}
-<!DOCTYPE html>
 
 <html lang="en">
 <head>
@@ -35,14 +34,14 @@
     </header>
     <br><br><br>
     <div class="profile">
-      <img class="player-badge" src="{% static 'audience\image\red.png' %}" alt="premier">
+      <img class="player-badge" src="{% static team_data.player_badge %}" alt="premier" height="350">
       <div class="overlay">
           <div class="pic">
               <!-- <img src="{% static 'audience\image\empty_profile.png' %}"> -->
           </div>
-          <h1 class="p_name">{{ data.Name }}</h1>
+          <h1>{{ player_data.Name }}</h1>
       </div>
-  </div>
+    </div>
   <br>
     <div class="outer-box2">
       <div class="score-board">
@@ -51,23 +50,23 @@
                   <tbody>
                     <tr>
                       <td>CLUB</td>
-                      <td>{{ data.Team }}</td>
+                      <td>{{ player_data.Team }}</td>
                     </tr>
                     <tr>
                       <td>Position</td>
-                      <td>{{ data.Position }}</td>
+                      <td>{{ player_data.Position }}</td>
                     </tr>
                     <tr>
                       <td>Appearances</td>
-                      <td>{{ data.Appearances }}</td>
+                      <td>{{ player_data.Appearances }}</td>
                     </tr>
                     <tr>
                       <td>TotalGoals</td>
-                      <td>{{ data.TotalGoals }}</td>
+                      <td>{{ player_data.TotalGoals }}</td>
                     </tr>
                     <tr>
                       <td>GoalsConceded</td>
-                      <td>{{ data.GoalsConceded }}</td>
+                      <td>{{ player_data.GoalsConceded }}</td>
                     </tr>
                   </tbody>
               </table>
