@@ -140,34 +140,47 @@ header {
 /*For menu bar*/
 
 .profile {
-    height: 45vh;
+    position: relative;
     display: flex;
-    background-color: rgb(226, 23, 70);
     justify-content: center;
     align-items: center;
-    padding-left: 50px;
     box-shadow: 6px 4px 68px 11px rgba(0, 0, 0, 0.25);
 }
 
-.profile .pic {
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.overlay h1 {
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.pic {
     min-width: 200px;
-    min-height: 240px; 
+    min-height: 240px;
     width: 250px;
     height: 300px;
-    margin-right: 50px;
-    background-color: rgb(157, 124, 124);
-    border-radius: 20px;
+    background-color: rgba(253, 253, 253, 0.768);
+    border-radius: 20px 20px 0 0;
     box-shadow: 6px 4px 68px 11px rgba(0, 0, 0, 0.25);
 }
 
 .profile h1 {
     color: white;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 130px;
 }
 
-.p_name {
-    font-size: 140px;
-    margin-left: 100px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.player-badge {
+    width: 100%; /* Adjust the width as needed */
 }
 
 .details_box  {
