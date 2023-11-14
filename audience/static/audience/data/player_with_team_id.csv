@@ -12,13 +12,13 @@ Id,Name,Weight,Height (meter),Age,citizenship,Team,Jersey,Position,Appearances,S
 21,Bukayo Saka,159 lbs,1.78,21,England,Arsenal,7,Midfielder,38,1,3360,89,38,65,0,2,0,6,11,31,87,14,41,0,2023-07-30T19:56:55Z,1
 235,Rodrigo,170 lbs,1.83,32,Spain,Leeds United,19,Forward,31,8,2043,67,28,11,0,5,0,6,1,25,63,13,43,0,2023-07-30T20:58:13Z,10
 462,Harvey Barnes,146 lbs,1.75,25,England,Leicester City,7,Midfielder,34,2,2848,85,36,37,0,7,0,3,1,35,71,13,46,0,2023-07-30T20:58:15Z,11
-462,Harvey Barnes,146 lbs,1.75,25,England,Newcastle United,,Midfielder,34,2,2848,85,36,37,0,7,0,3,1,35,71,13,46,0,2023-07-30T19:56:57Z,15
+462,Harvey Barnes,146 lbs,1.75,25,England,Newcastle United,15,Midfielder,34,2,2848,85,36,37,0,7,0,3,1,35,71,13,46,0,2023-07-30T19:56:57Z,15
 555,Phil Foden,152 lbs,1.7,23,England,Manchester City,47,Midfielder,32,10,1977,63,9,29,0,5,0,1,6,21,46,11,15,0,2023-07-30T19:56:54Z,13
 25,Gabriel Jesus,161 lbs,1.75,26,Brazil,Arsenal,9,Forward,26,2,2151,84,40,57,0,2,0,6,6,31,78,11,22,0,2023-07-30T19:56:55Z,1
 293,Miguel Almirón,152 lbs,1.75,29,Paraguay,Newcastle United,24,Midfielder,34,5,2575,77,21,33,0,6,0,2,4,20,65,11,20,0,2023-07-30T19:56:57Z,15
 274,Taiwo Awoniyi,183 lbs,1.83,25,Nigeria,Nottingham Forest,9,Forward,27,10,1474,56,23,19,0,0,0,2,1,15,36,10,29,0,2023-07-30T19:56:55Z,16
 306,Alexander Isak,170 lbs,1.93,23,Sweden,Newcastle United,14,Forward,22,5,1614,74,19,15,0,5,0,3,2,25,49,10,18,0,2023-07-30T19:56:57Z,15
-461,James Maddison,161 lbs,1.75,26,England,Tottenham Hotspur,,Midfielder,30,2,2611,88,31,79,0,9,0,10,9,24,83,10,51,0,2023-07-30T19:56:58Z,18
+461,James Maddison,161 lbs,1.75,26,England,Tottenham Hotspur,10,Midfielder,30,2,2611,88,31,79,0,9,0,10,9,24,83,10,51,0,2023-07-30T19:56:58Z,18
 461,James Maddison,161 lbs,1.75,26,England,Leicester City,10,Midfielder,30,2,2611,88,31,79,0,9,0,10,9,24,83,10,51,0,2023-07-30T20:58:15Z,11
 47,Eberechi Eze,161 lbs,1.78,25,England,Crystal Palace,10,Midfielder,38,8,2776,74,27,57,0,8,0,3,5,20,69,10,32,0,2023-07-30T19:56:57Z,7
 357,Son Heung-Min,170 lbs,1.83,31,South Korea,Tottenham Hotspur,7,Forward,36,3,3034,85,10,36,0,4,0,2,6,35,80,10,54,0,2023-07-30T19:56:58Z,18
@@ -70,7 +70,7 @@ Id,Name,Weight,Height (meter),Age,citizenship,Team,Jersey,Position,Appearances,S
 432,Mathias Jensen,150 lbs,1.8,27,Denmark,Brentford,8,Midfielder,37,0,2898,79,32,25,0,6,0,5,6,6,23,5,38,0,2023-07-30T19:56:58Z,4
 268,Morgan Gibbs-White,,1.7,23,England,Nottingham Forest,10,Midfielder,37,1,3366,92,34,31,0,13,0,6,9,20,60,5,60,0,2023-07-30T19:56:55Z,16
 172,Jefferson Lerma,152 lbs,1.78,28,Colombia,Crystal Palace,8,Midfielder,37,0,3450,94,36,33,1,1,0,7,0,11,36,5,64,0,2023-07-30T19:56:57Z,7
-122,Manor Solomon,146 lbs,1.7,24,Israel,Tottenham Hotspur,,Forward,19,15,667,36,5,4,0,1,0,0,0,7,11,4,11,0,2023-07-30T19:56:58Z,18
+122,Manor Solomon,146 lbs,1.7,24,Israel,Tottenham Hotspur,72,Forward,19,15,667,36,5,4,0,1,0,0,0,7,11,4,11,0,2023-07-30T19:56:58Z,18
 497,Julio Enciso,139 lbs,1.68,19,Paraguay,Brighton & Hove Albion,20,Forward,20,13,890,46,13,15,0,1,0,1,3,17,38,4,11,0,2023-07-30T19:56:56Z,5
 88,Luis Díaz,141 lbs,1.78,26,Colombia,Liverpool,7,Forward,17,6,1064,64,18,24,0,2,0,2,2,8,26,4,11,0,2023-07-30T19:56:58Z,12
 707,Carlos Alcaraz,150 lbs,1.75,20,Argentina,Southampton,26,Midfielder,18,5,1084,61,14,17,0,2,0,3,2,9,22,4,24,0,2023-07-30T20:58:14Z,17
