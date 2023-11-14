@@ -124,5 +124,32 @@
     </div>
     <!-- Add other team details here -->
 
-  <!-- Display List of Players -->
-
+    <!-- Display List of Players -->
+    <div class="score-board-title">Players</div>
+    <br>
+    <div class="outer-box2">
+        <div class="score-board">
+            <div class="player">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Number</th>
+                            <th>Name</th>
+                            <th>Position</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for player in players %}
+                            <tr>
+                                <td>{{ player.Jersey }}</td>
+                                <td><a href="{% url 'audience:player_information' player.Team player.Id %}">{{ player.Name }}</a></td>
+                                <td>{{ player.Position }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

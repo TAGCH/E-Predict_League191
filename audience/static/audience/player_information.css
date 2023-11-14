@@ -1,0 +1,70 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.profile {
+    height: 45vh;
+    display: flex;
+    background-color: rgb(226, 23, 70);
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    box-shadow: 6px 4px 68px 11px rgba(0, 0, 0, 0.25);
+}
+
+.profile .pic {
+    min-width: 200px;
+    min-height: 240px; 
+    width: 250px;
+    height: 300px;
+    margin-right: 50px;
+    background-color: rgb(157, 124, 124);
+    border-radius: 20px;
+    box-shadow: 6px 4px 68px 11px rgba(0, 0, 0, 0.25);
+}
+
+.profile h1 {
+    color: white;
+}
+
+.p_name {
+    font-size: 140px;
+    margin-left: 100px;
+}
+
+.details_box  {
+    display: flex;
+    padding-left: 5%;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.table , td {
+    width: 80vw;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #3a3535;
+    justify-content: center;
+    color: rgb(85, 16, 90);
+    font-size: 24px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+#details {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+#details td, #details th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+#details tr:nth-child(even){background-color: #f2f2f2;}
+  
+#details tr:hover {background-color: #ddd;}
