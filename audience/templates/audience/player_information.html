@@ -34,11 +34,14 @@
         </nav>
     </header>
     <br><br><br>
-  <div class="profile">
-    <div class="pic">
-      <!-- <img src="{% static 'audience\image\empty_profile.png' %}"> -->
-    </div>
-  <h1 class="p_name">{{ data.Name }}</h1>
+    <div class="profile">
+      <img class="player-badge" src="{% static 'audience\image\red.png' %}" alt="premier">
+      <div class="overlay">
+          <div class="pic">
+              <!-- <img src="{% static 'audience\image\empty_profile.png' %}"> -->
+          </div>
+          <h1 class="p_name">{{ data.Name }}</h1>
+      </div>
   </div>
   <br>
     <div class="outer-box2">
