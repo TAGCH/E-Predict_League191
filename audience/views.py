@@ -75,4 +75,3 @@ def player_information(request,team_name , player_id):
 
     context = {"page": "player_information", "detail": "show all player infos", "data": data}
     return render(request, "audience/player_information.html", context)
-

@@ -1,14 +1,509 @@
-.team-badge {
-    height: 200px;
-    width: 330px;
+/*For menu bar*/
+header {
+    position: fixed;
+    width: 100%;
+    padding: 12px 80px;
+    background-color: #3C0041;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 30px rgb(0, 0, 0, 0.5);
+    z-index: 99;
+}
+
+.logo {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    user-select: none;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px #00000057;
+}
+
+.navigation {
+    display: flex; /* Added flex display */
+    align-items: center; /* Center items vertically */
+    margin-right: auto;
+}
+
+.navigation a {
+    font-size:  1.0em;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px; /* Adjusted margin */
+    position: relative; /* Removed duplicate position property */
+    display: inline-flex;
+}
+
+.navigation .btnLogin-popup {
+    width:  110px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 1000;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .btnLogin-popup:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: blueviolet;
+}
+
+.navigation a::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.navigation-left {
+    display: flex; /* Added flex display */
+    align-items: center; /* Center items vertically */
+    margin-left: auto;
+}
+
+.navigation-left a {
+    font-size:  1.0em;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px; /* Adjusted margin */
+    position: relative; /* Removed duplicate position property */
+    display: inline-flex;
+}
+
+.navigation-left .btnLogin-popup {
+    width:  110px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 1000;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation-left .btnLogin-popup:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: blueviolet;
+}
+
+.navigation-left a::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation-left a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.item {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+.item:hover {
+    transform: scale(1.1);
+}
+/*For menu bar*/
+
+.premier {
+    width: 100%;
+}
+
+.text-bar {
+    height: 80px;
+    width: 100%;
+    padding: 15px 80px;
+    background-color: #3C0041;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px rgb(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    top: 60%;
+}
+
+.badge-text {
+    position: absolute;
+    top: 83%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    color: #3C0041;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;    /* Hide text that overflows */
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflow */
+}
+
+.badge-arrow {
+    position: absolute;
+    top: 82%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    color: #3C0041;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.team-badge-arsenal {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgba(255, 0, 0, 0.873) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-arsenal:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-aston-villa {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(98, 38, 60) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-aston-villa:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-bournemouth {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(120, 4, 4) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-bournemouth:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-brentford {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(193, 7, 7) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-brentford:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-brighton {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(116, 108, 224) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-brighton:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-chelsea {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(28, 4, 132) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-chelsea:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-palace {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(0, 16, 116) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-palace:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-everton {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(15, 10, 105) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-everton:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-fulham {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(0, 0, 0) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-fulham:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-leeds {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(116, 116, 116) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-leeds:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-leicester {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(71, 71, 218) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-leicester:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-liverpool {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(197, 0, 0) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-liverpool:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-man-city {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(0, 149, 255) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-man-city:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-man-u {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(214, 2, 2) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-man-u:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-newcastle {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(0, 0, 0) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-newcastle:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-forest {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(168, 3, 3) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-forest:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-southampton {
+    height: 160px;
+    width: 265px;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.20);
     background: conic-gradient(from 90deg at -429.18% 95.79%, #F00 0deg, rgba(255, 255, 255, 0.00) 360deg);
     display: block;
-    padding: 40px;
+    padding: 20px;
     transition: all 0.6s;
+    position: relative;
 }
 
-.team-badge:hover {
+.team-badge-southampton:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-spur {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(136, 136, 136) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-spur:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-westham {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(84, 36, 58) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-westham:hover {
+    transform: scale(1.05);
+}
+
+.team-badge-wolve {
+    height: 160px;
+    width: 265px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: conic-gradient(from 90deg at -429.18% 95.79%, rgb(255, 174, 0) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    display: block;
+    padding: 20px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.team-badge-wolve:hover {
     transform: scale(1.05);
 }
