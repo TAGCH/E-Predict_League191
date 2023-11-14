@@ -1,78 +1,126 @@
-{% block content %}
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'audience/team_comparison.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="{% static 'audience/image/Web-logo.png' %}">
+    <title>Radar Graph</title>
+</head>
+<body>
+    <header>
+        <div class="item">
+            <a href="{% url 'audience:homepage' %}" rel="noopener">
+                <img class="rounded-circle" src="{% static 'audience\image\Logo.png' %}" alt="Logo" width="50" height="50">
+            </a>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <nav class="navigation">
+            <a href="{% url 'audience:team_comparison' %}">Radar Graph</a>
+            <a href="#">Prediction</a>
+        </nav>
+
+        <nav class="navigation-left">
+            <a href="{% url 'user_profile:profile' %}">{{user}}</a>
+            {% if user.is_authenticated %}
+            <button class="btnLogin-popup" onclick="window.location.href='{% url 'account_logout' %}'">Logout</button>
+            {% else %}
+            <button class="btnLogin-popup" onclick="window.location.href='{% url 'account_login' %}'">Login</button>
+            {% endif %}
+        </nav>
+    </header>
+    <br><br><br><br>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <h2>Team Comparison</h2>
-  
+  <span class="score-board-title">Team Comparison</span>
+  <br>
+  <center>
   <form method="post" action="{% url 'audience:team_comparison' %}" onsubmit="return validateBeforeSubmit()">
     {% csrf_token %}
     
     <label for="team1">Select Team 1:</label>
-    <select name="team1" id="team1" onchange="updateTeams('team1', this.value)">
+    <select name="team1" id="team1" onchange="updateTeams('team1', this.value)" class="custom-select-team">
       <option value="" selected disabled>Select Team</option>
       {% for team in teams %}
         <option value="{{ team.team_id }}">{{ team.Team }}</option>
       {% endfor %}
     </select>
-    
+    &nbsp;&nbsp;&nbsp;
     <label for="team2">Select Team 2:</label>
-    <select name="team2" id="team2" onchange="updateTeams('team2', this.value)">
+    <select name="team2" id="team2" onchange="updateTeams('team2', this.value)" class="custom-select-team">
       <option value="" selected disabled>Select Team</option>
       {% for team in teams %}
         <option value="{{ team.team_id }}">{{ team.Team }}</option>
       {% endfor %}
     </select>
-    
-    <button type="submit">Compare Teams</button>
+    <br><br>
+    <button class="btn-compare" type="submit">Compare Teams</button>
   </form>
+  </center>
 
   {% if team1_stats and team2_stats %}
-    <h3>Comparison Table</h3>
-    <table>
-      <thead>
-        <tr>
-          <th>Statistic</th>
-          <th>{{ team1_stats.Team }}</th>
-          <th>{{ team2_stats.Team }}</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Won</td>
-          <td>{{ team1_stats.Won }}</td>
-          <td>{{ team2_stats.Won }}</td>
-        </tr>
-        <tr>
-          <td>Lose</td>
-          <td>{{ team1_stats.Lose }}</td>
-          <td>{{ team2_stats.Lose }}</td>
-        </tr>
-        <tr>
-          <td>Draw</td>
-          <td>{{ team1_stats.Draw }}</td>
-          <td>{{ team2_stats.Draw }}</td>
-        </tr>
-        <tr>
-          <td>Point</td>
-          <td>{{ team1_stats.Point }}</td>
-          <td>{{ team2_stats.Point }}</td>
-        </tr>
-        <tr>
-          <td>Goals</td>
-          <td>{{ team1_stats.Goals }}</td>
-          <td>{{ team2_stats.Goals }}</td>
-        </tr>
-        <tr>
-          <td>Rank</td>
-          <td>{{ team1_stats.Rank }}</td>
-          <td>{{ team2_stats.Rank }}</td>
-        </tr>
-        <!-- Add other statistics here -->
-      </tbody>
-    </table>
-
-    <h3>Comparison Radar Graph</h3>
-    <canvas id="radar-chart"></canvas>
+    <div class="Static-title">Radar Graph</div>
+    <br><br>
+    <center>
+      <div style="width: 500px; height: 500px;">
+        <canvas id="radar-chart" width="500" height="500"></canvas>
+      </div>
+    </center>
+    <br><br>
+    <div class="Static-title">Team Static</div>
+    <center>
+      <div class="outer-box2">
+        <div class="score-board">
+            <div class="player">
+              <table>
+                  <thead>
+                      <tr>
+                          <th class="center">{{ team1_stats.Team }}</th>
+                          <th></th>
+                          <th class="center">{{ team2_stats.Team }}</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td class="center">{{ team1_stats.Rank }}</td>
+                          <td>Rank</td>
+                          <td class="center">{{ team2_stats.Rank }}</td>
+                      </tr>
+                      <tr>
+                          <td class="center">{{ team1_stats.Won }}</td>
+                          <td>Won</td>
+                          <td class="center">{{ team2_stats.Won }}</td>
+                      </tr>
+                      <tr>
+                          <td class="center">{{ team1_stats.Lose }}</td>
+                          <td>Lose</td>
+                          <td class="center">{{ team2_stats.Lose }}</td>
+                      </tr>
+                      <tr>
+                          <td class="center">{{ team1_stats.Draw }}</td>
+                          <td>Draw</td>
+                          <td class="center">{{ team2_stats.Draw }}</td>
+                      </tr>
+                      <tr>
+                          <td class="center">{{ team1_stats.Point }}</td>
+                          <td>Point</td>
+                          <td class="center">{{ team2_stats.Point }}</td>
+                      </tr>
+                      <tr>
+                          <td class="center">{{ team1_stats.Goals }}</td>
+                          <td>Goals</td>
+                          <td class="center">{{ team2_stats.Goals }}</td>
+                      </tr>
+                  </tbody>
+              </table>
+            </div>
+        </div>
+      </div>
+    </center>
   {% endif %}
-
+  <br>
+  </body>
   <script>
     // Function to update dropdown options based on the selected team
     function updateTeams(selectId, selectedValue) {
@@ -150,4 +198,4 @@
       });
     }
   </script>
-{% endblock %}
+</html>
