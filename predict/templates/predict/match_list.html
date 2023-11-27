@@ -1,0 +1,9 @@
+<h2>Match List</h2>
+<ul>
+    {% for match in matches %}
+        <li>
+            {{ match.team1 }} vs {{ match.team2 }} - Result: {{ match.result }}
+            <a href="{% url 'predict_match' match.id %}">Predict</a>
+        </li>
+    {% endfor %}
+</ul>
