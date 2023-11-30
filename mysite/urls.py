@@ -27,5 +27,6 @@ urlpatterns = [
     # path('updateprofile/', views.update_profile, name='update_profile'),
     path('accounts/logout/', views.custom_logout, name='custom_logout'),
     path('accounts/', include('allauth.urls')),
+    path('accounts/', include('allauth.socialaccount.urls')),
     path("admin/", admin.site.urls),
 ]
