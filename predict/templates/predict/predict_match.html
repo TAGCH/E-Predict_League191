@@ -35,6 +35,11 @@
 <h2>Predict the Match</h2>
 <form method="post" action="">
     {% csrf_token %}
+    {{ form.match_id }}
     {{ form.as_p }}
-    <button type="submit">Vote</button>
+    <button type="submit">Predict</button>
 </form>
+{% for prediction in predict_user %}
+    <p>{{ prediction.user.username }}: {{ prediction.score_team1 }} - {{ prediction.score_team2 }}</p>
+{% endfor %}
+</body>

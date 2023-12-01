@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect
+from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
-from .models import Match
+from .models import Match, Prediction
 from .forms import MatchPredictionForm
 from datetime import datetime
 
@@ -27,6 +29,7 @@ def match_list(request):
     return render(request, 'predict/match_list.html', context)
 
 
+@login_required
 def predict_match(request, match_id):
     # Load data from the CSV file
     csv_path = 'predict/static/predict/data/fixture.csv'
@@ -49,15 +52,32 @@ def predict_match(request, match_id):
     if match['Result'] != '':
         return render(request, 'predict/predict_match_already_end.html', {'match': match})
 
-    # Create a dynamic form based on the match information
     form = MatchPredictionForm(initial={'match_id': match_id})
-    # Set labels for team names in the form
     form.set_team_labels(match['HomeTeam'], match['AwayTeam'])
 
     if request.method == 'POST':
         form = MatchPredictionForm(request.POST)
         if form.is_valid():
-            # Process the form data (save it to a database or handle as needed)
-            return redirect('match_list')  # Redirect to the match list or another page
+            # Get or create a Prediction object for the user and match
+            prediction, created = Prediction.objects.get_or_create(
+                user=request.user,
+                match_id=int(match_id),
+                defaults={
+                    'score_team1': form.cleaned_data['score_team1'],
+                    'score_team2': form.cleaned_data['score_team2'],
+                }
+            )
 
-    return render(request, 'predict/predict_match.html', {'match': match, 'form': form})
+            # If the prediction already exists, update the scores
+            if not created:
+                prediction.score_team1 = form.cleaned_data['score_team1']
+                prediction.score_team2 = form.cleaned_data['score_team2']
+                prediction.save()
+
+            messages.success(request, 'Prediction successful!')
+
+            return redirect('predict:match_list')  # Redirect to the match list or another page
+
+    predict_user = Prediction.objects.filter(match_id=match_id)
+
+    return render(request, 'predict/predict_match.html', {'match': match, 'form': form, 'predict_user': predict_user})
