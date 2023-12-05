@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'audience/team_comparison.css' %}">
+    <link rel="stylesheet" href="{% static 'predict/match_list.css' %}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="icon" type="image/png" href="{% static 'audience/image/Web-logo.png' %}">
@@ -40,10 +40,11 @@
             {% endif %}
         </nav>
     </header>
-    <br><br><br>
-    <ul>
-       <span class="score-board-title">Upcoming Match</span>
-      {% for match in upcoming_matches %}
+    <br><br><br><br>
+    <span class="predict-title">Upcoming Match</span>
+    <br>
+    {% for match in upcoming_matches %}
+      <div class="match-box">
         <li>
           <strong>{{ match.Date}}</strong>
           <br>
@@ -53,6 +54,6 @@
           <br>
           <a href="{% url 'predict:predict_match' match_id=match.MatchNumber %}">Predict</a>
         </li>
-      {% endfor %}
-    </ul>
+      </div>
+    {% endfor %}
 </body>
