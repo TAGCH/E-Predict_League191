@@ -40,7 +40,13 @@ Now, your Application is set up to allow social logins through the configured so
 ## Demo Users
 | Username  | Password        |
 |-----------|-----------------|
-|           |                 |
+|   demo01        |      epl1234           |
+|   demo02        |      epl5678          |
+
+To load for the demo admin and users use the following command(make sure to migrate first)
+```
+python manage.py loaddata data/users.json
+```
 
 ## Project Documents
 
