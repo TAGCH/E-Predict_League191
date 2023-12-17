@@ -36,9 +36,20 @@
     <form method="post" action="" class="predict">
         {% csrf_token %}
         {{ form.match_id }}
-        {{ form.as_p }}
+        <!-- Render score fields manually -->
+        <div class="form-group">
+            <label for="{{ form.score_team1.id_for_label }}">Score Team 1:</label>
+            {{ form.score_team1 }}
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="{{ form.score_team2.id_for_label }}">Score Team 2:</label>
+            {{ form.score_team2 }}
+        </div>
+    <br>
     <button type="submit" class="btn-predict">Predict</button>
     </form>
+
     <table class="predict-table">
     <thead>
         <tr>
