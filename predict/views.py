@@ -9,21 +9,9 @@ from datetime import datetime
 import csv
 
 
-def index(request):
-    return HttpResponse("Hello, world. You're at the prediction page.")
-
-
 def match_list(request):
-    # Load the data from csv
-    match_filename = 'predict/static/predict/data/fixture.csv'
-    with open(match_filename, 'r', encoding='utf-8') as match_file:
-        csv_reader = csv.DictReader(match_file)
-        matches = list(csv_reader)
-
-    current = datetime.now()
-    upcoming_matches = [match for match in matches
-                        if datetime.strptime(match['Date'], '%d/%m/%Y %H:%M') > current
-                        ][:5]
+    current_time = datetime.now()
+    upcoming_matches = Match.objects.filter(date__gt=current_time)[:5]
 
     context = {'upcoming_matches': upcoming_matches}
     return render(request, 'predict/match_list.html', context)
@@ -31,53 +19,29 @@ def match_list(request):
 
 @login_required
 def predict_match(request, match_id):
-    # Load data from the CSV file
-    csv_path = 'predict/static/predict/data/fixture.csv'
-    with open(csv_path, newline='') as csvfile:
-        csv_reader = csv.DictReader(csvfile)
-        matches = list(csv_reader)
-
-    # Find the match with the specified match_id
-    match = None
-    for m in matches:
-        if int(m['MatchNumber']) == match_id:
-            match = m
-            break
-
-    # Check if the match was found
-    if not match:
+    try:
+        match = Match.objects.get(id=match_id)
+    except Match.DoesNotExist:
         return render(request, 'predict/predict_match_not_found.html', {'match_id': match_id})
 
-    # Check if the match already has results
-    if match['Result'] != '':
-        return render(request, 'predict/predict_match_already_end.html', {'match': match})
+    prediction, created = Prediction.objects.get_or_create(
+        user=request.user,
+        match=match,
+        defaults={
+            'score_team1': 0,  # Set default values or adjust as needed
+            'score_team2': 0,
+        }
+    )
 
-    form = MatchPredictionForm(initial={'match_id': match_id})
-    form.set_team_labels(match['HomeTeam'], match['AwayTeam'])
+    form = MatchPredictionForm(request.POST, instance=prediction)
+    form.set_team_labels(match.team1, match.team2)
 
     if request.method == 'POST':
-        form = MatchPredictionForm(request.POST)
         if form.is_valid():
-            # Get or create a Prediction object for the user and match
-            prediction, created = Prediction.objects.get_or_create(
-                user=request.user,
-                match_id=int(match_id),
-                defaults={
-                    'score_team1': form.cleaned_data['score_team1'],
-                    'score_team2': form.cleaned_data['score_team2'],
-                }
-            )
-
-            # If the prediction already exists, update the scores
-            if not created:
-                prediction.score_team1 = form.cleaned_data['score_team1']
-                prediction.score_team2 = form.cleaned_data['score_team2']
-                prediction.save()
-
+            form.save()
             messages.success(request, 'Prediction successful!')
+            return redirect('predict:match_list')
 
-            return redirect('predict:match_list')  # Redirect to the match list or another page
-
-    predict_user = Prediction.objects.filter(match_id=match_id)
+    predict_user = Prediction.objects.filter(match=match)
 
     return render(request, 'predict/predict_match.html', {'match': match, 'form': form, 'predict_user': predict_user})

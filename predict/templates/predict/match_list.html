@@ -44,16 +44,16 @@
     <span class="predict-title">Upcoming Match</span>
     <br>
     {% for match in upcoming_matches %}
-      <div class="match-box">
+    <div class="match-box">
         <li>
-          <strong>{{ match.Date}}</strong>
-          <br>
-          {{ match.HomeTeam }} vs {{ match.AwayTeam }}
-          <br>
-          Location: {{ match.Location }}
-          <br>
-          <a href="{% url 'predict:predict_match' match_id=match.MatchNumber %}">Predict</a>
+            <strong>{{ match.date }}</strong>
+            <br>
+            {{ match.team1 }} vs {{ match.team2 }}
+            <br>
+            Location: {{ match.location }}
+            <br>
+            <a href="{% url 'predict:predict_match' match_id=match.id %}">Predict</a>
         </li>
-      </div>
-    {% endfor %}
+    </div>
+{% endfor %}
 </body>
