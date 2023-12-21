@@ -28,7 +28,7 @@ def predict_match(request, match_id):
         user=request.user,
         match=match,
         defaults={
-            'score_team1': 0,  # Set default values or adjust as needed
+            'score_team1': 0,
             'score_team2': 0,
         }
     )
